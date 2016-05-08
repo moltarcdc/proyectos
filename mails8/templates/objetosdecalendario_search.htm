@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}>
+  <HEAD>
+    <META http-equiv="X-UA-Compatible" content="IE=Edge">
+    <TITLE>
+      {$pagetitle}
+    </TITLE>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <LINK href="styles/default.css" rel="stylesheet" type="text/css">
+    {BEGIN rtlCSS}
+      <LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">
+    {END rtlCSS}
+    {BEGIN styleCSSFiles}
+      <LINK href="{$stylepath}" rel="stylesheet" type="text/css">
+    {END styleCSSFiles}
+    {BEGIN pageCSSFiles}
+      <LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">
+    {END pageCSSFiles}
+    <META name="GENERATOR" content="MSHTML 11.00.9600.16428">
+  </HEAD>
+  <BODY class="{$stylename} function-search" {$bodyattrs}>
+    {BEGIN body}
+      {$header}
+      <DIV class="rnr-page">
+        <DIV class="rnr-top {$blockclass_top}">
+          {BEGIN container_search}
+            <DIV class="rnr-c rnr-cv rnr-c-search">
+              {BEGIN searchheader}
+                <DIV class="rnr-brickcontents style2 rnr-b-srchheader {$brickclass_srchheader}">
+                  <SPAN>
+                    <H1>
+                      {$pagetitlelabel oc_clndr_objects search}
+                    </H1>
+                  </SPAN>
+                </DIV>
+              {END searchheader}
+              {BEGIN conditions_block}
+                <DIV class="rnr-brickcontents style1 rnr-b-srchconditions {$brickclass_srchconditions}">
+                  <CENTER>
+                    <SPAN class="fieldname">
+                      <SPAN 
+style="color: blue;">
+                        Criterio:&nbsp;&nbsp;&nbsp;&nbsp;
+                      </SPAN>
+                    </SPAN>
+                    <INPUT name="srchType{$id}" class="rnr-radio-button" type="radio" {$all_checkbox}>
+                    <LABEL for="all_checkbox">
+                      <SPAN style="color: blue;">
+                        Todas las condiciones
+                      </SPAN>
+                    </LABEL>
+                    &nbsp;&nbsp;&nbsp;<INPUT name="srchType{$id}" class="rnr-radio-button" type="radio" {$any_checkbox}>
+                    <LABEL for="any_checkbox">
+                      <SPAN style="color: blue;">
+                        Ninguna condición
+                      </SPAN>
+                    </LABEL>
+                  </CENTER>
+                </DIV>
+              {END conditions_block}
+              <DIV class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+                {BEGIN container_fields}
+                  <DIV class="rnr-c rnr-cv rnr-c-fields">
+                    <DIV class="rnr-brickcontents style1 rnr-b-srchfields {$brickclass_srchfields}">
+                      <TABLE class="fieldGrid">
+                        <TBODY>
+                          <TR>
+                            <TD>
+                              &nbsp;
+                            </TD>
+                            <TD>
+                              NO
+                            </TD>
+                            <TD colspan="3">
+                              &nbsp;
+                            </TD>
+                          </TR>
+                          <TR class="{$fielddispclass_calendarid}">
+                            {BEGIN calendarid_fieldblock}
+                              <TD>
+                                {$label oc_clndr_objects calendarid}
+                              </TD>
+                              <TD>
+                                <INPUT type="checkbox" {$calendarid_notbox}>
+                              </TD>
+                              <TD>
+                                {$searchtype_calendarid}
+                              </TD>
+                              <TD>
+                                {$calendarid_editcontrol}
+                                &nbsp;
+                              </TD>
+                              <TD>
+                                {$calendarid_editcontrol1}
+                                &nbsp;
+                              </TD>
+                            {END calendarid_fieldblock}
+                          </TR>
+                          <TR class="{$fielddispclass_startdate}">
+                            {BEGIN startdate_fieldblock}
+                              <TD>
+                                {$label oc_clndr_objects startdate}
+                              </TD>
+                              <TD>
+                                <INPUT type="checkbox" {$startdate_notbox}>
+                              </TD>
+                              <TD>
+                                {$searchtype_startdate}
+                              </TD>
+                              <TD>
+                                {$startdate_editcontrol}
+                                &nbsp;
+                              </TD>
+                              <TD>
+                                {$startdate_editcontrol1}
+                                &nbsp;
+                              </TD>
+                            {END startdate_fieldblock}
+                          </TR>
+                          <TR class="{$fielddispclass_enddate}">
+                            {BEGIN enddate_fieldblock}
+                              <TD>
+                                {$label oc_clndr_objects enddate}
+                              </TD>
+                              <TD>
+                                <INPUT type="checkbox" {$enddate_notbox}>
+                              </TD>
+                              <TD>
+                                {$searchtype_enddate}
+                              </TD>
+                              <TD>
+                                {$enddate_editcontrol}
+                                &nbsp;
+                              </TD>
+                              <TD>
+                                {$enddate_editcontrol1}
+                                &nbsp;
+                              </TD>
+                            {END enddate_fieldblock}
+                          </TR>
+                          <TR class="{$fielddispclass_summary}">
+                            {BEGIN summary_fieldblock}
+                              <TD>
+                                {$label oc_clndr_objects summary}
+                              </TD>
+                              <TD>
+                                <INPUT type="checkbox" {$summary_notbox}>
+                              </TD>
+                              <TD>
+                                {$searchtype_summary}
+                              </TD>
+                              <TD>
+                                {$summary_editcontrol}
+                                &nbsp;
+                              </TD>
+                              <TD>
+                                {$summary_editcontrol1}
+                                &nbsp;
+                              </TD>
+                            {END summary_fieldblock}
+                          </TR>
+                        </TBODY>
+                      </TABLE>
+                    </DIV>
+                    {BEGIN searchbuttons}
+                      <DIV class="rnr-brickcontents style2 rnr-b-srchbuttons {$brickclass_srchbuttons}">
+                        {BEGIN search_button}
+                          <A class="rnr-button main" href="#" {$searchbutton_attrs}>
+                            Buscar
+                          </A>
+                        {END search_button}
+                        {BEGIN reset_button}
+                          <A class="rnr-button" href="#" {$resetbutton_attrs}>
+                            Reiniciar
+                          </A>
+                        {END reset_button}
+                        {BEGIN back_button}
+                          <A class="rnr-button" href="#" {$backbutton_attrs}>
+                            Volver a la lista
+                          </A>
+                        {END back_button}
+                      </DIV>
+                    {END searchbuttons}
+                  </DIV>
+                {END container_fields}
+              </DIV>
+            </DIV>
+          {END container_search}
+        </DIV>
+        <DIV class="rnr-middle">
+          <DIV class="rnr-left {$blockclass_left}">
+          </DIV>
+          <DIV class="rnr-center {$blockclass_center}">
+          </DIV>
+          <DIV class="rnr-right {$blockclass_right}">
+          </DIV>
+        </DIV>
+        <DIV class="rnr-bottom {$blockclass_bottom}">
+          <!--%%bottom%%-->
+        </DIV>
+      </DIV>
+      {$footer}
+    {END body}
+  </BODY>
+</HTML>

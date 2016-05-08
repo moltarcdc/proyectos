@@ -1,0 +1,134 @@
+body.page-add
+{
+padding-top:10px; padding-left:10px;
+}
+.page-add .rnr-c-fields,
+  .rnr-pagewrapper .page-add .rnr-c-fields,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-c-fields
+{
+margin-bottom:5px;
+}
+.page-add .rnr-b-addheader_mobile,
+  .rnr-pagewrapper .page-add .rnr-b-addheader_mobile,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-addheader_mobile
+{
+white-space: nowrap;
+}
+.page-add .rnr-b-addheader_mobile,
+  .rnr-pagewrapper .page-add .rnr-b-addheader_mobile,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-addheader_mobile
+{
+text-align: right;
+}
+.page-add .rnr-b-addheader_mobile > *,
+  .rnr-pagewrapper .page-add .rnr-b-addheader_mobile > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-addheader_mobile > *
+{
+
+}
+.page-add .rnr-b-message,
+  .rnr-pagewrapper .page-add .rnr-b-message,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-message
+{
+white-space: nowrap;
+}
+.page-add .rnr-b-message,
+  .rnr-pagewrapper .page-add .rnr-b-message,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-message
+{
+text-align: right;
+}
+.page-add .rnr-b-message > *,
+  .rnr-pagewrapper .page-add .rnr-b-message > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-message > *
+{
+
+}
+.page-add .rnr-b-addfields_atop,
+  .rnr-pagewrapper .page-add .rnr-b-addfields_atop,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-addfields_atop
+{
+white-space: normal;
+}
+.page-add .rnr-b-addfields_atop,
+  .rnr-pagewrapper .page-add .rnr-b-addfields_atop,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-addfields_atop
+{
+text-align: right;
+}
+.page-add .rnr-b-addfields_atop > *,
+  .rnr-pagewrapper .page-add .rnr-b-addfields_atop > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-addfields_atop > *
+{
+
+}
+.page-add .rnr-b-addbuttons,
+  .rnr-pagewrapper .page-add .rnr-b-addbuttons,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-addbuttons
+{
+white-space: nowrap;
+}
+.page-add .rnr-b-addbuttons,
+  .rnr-pagewrapper .page-add .rnr-b-addbuttons,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-addbuttons
+{
+text-align: right;
+}
+.page-add .rnr-b-addbuttons > *,
+  .rnr-pagewrapper .page-add .rnr-b-addbuttons > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-addbuttons > *
+{
+
+}
+.page-add .rnr-c-flylist,
+  .rnr-pagewrapper .page-add .rnr-c-flylist,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-c-flylist
+{
+margin-bottom:5px;
+}
+.page-add .rnr-b-flypanel_mobile,
+  .rnr-pagewrapper .page-add .rnr-b-flypanel_mobile,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-flypanel_mobile
+{
+white-space: nowrap;
+}
+.page-add .rnr-b-flypanel_mobile,
+  .rnr-pagewrapper .page-add .rnr-b-flypanel_mobile,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-flypanel_mobile
+{
+text-align: right;
+}
+.page-add .rnr-b-flypanel_mobile > *,
+  .rnr-pagewrapper .page-add .rnr-b-flypanel_mobile > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-flypanel_mobile > *
+{
+
+}
+.page-add .rnr-c-details,
+  .rnr-pagewrapper .page-add .rnr-c-details,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-c-details
+{
+margin-bottom:5px;
+}
+.page-add .rnr-b-adddetails,
+  .rnr-pagewrapper .page-add .rnr-b-adddetails,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-adddetails
+{
+white-space: nowrap;
+}
+.page-add .rnr-b-adddetails,
+  .rnr-pagewrapper .page-add .rnr-b-adddetails,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-adddetails
+{
+text-align: right;
+}
+.page-add .rnr-b-adddetails > *,
+  .rnr-pagewrapper .page-add .rnr-b-adddetails > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-add .rnr-b-adddetails > *
+{
+
+}
+body.page-add .rnr-top
+{
+padding-right: 5px;
+}

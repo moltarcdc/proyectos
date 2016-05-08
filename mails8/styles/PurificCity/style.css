@@ -1,0 +1,1380 @@
+.PurificCity.rnr-s-empty > .rnr-c
+{
+background:none;
+
+}
+.PurificCity.rnr-s-empty > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.PurificCity.rnr-s-empty > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.PurificCity.rnr-s-empty > :not(.runner-c) > *.style1,
+.PurificCity.rnr-s-empty > * > :not(.rnr-b-wrapper) .style1
+{
+color: #333333;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-empty > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificCity.rnr-s-empty > * > :not(.rnr-b-wrapper) .style1,
+.PurificCity.rnr-s-empty > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-empty > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificCity.rnr-s-empty > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificCity.rnr-s-empty > :not(.runner-c) > *.style2,
+.PurificCity.rnr-s-empty > * > :not(.rnr-b-wrapper) .style2
+{
+color: #333333;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-empty > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificCity.rnr-s-empty > * > :not(.rnr-b-wrapper) .style2,
+.PurificCity.rnr-s-empty > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-empty > :not(.runner-c) > *.style3,
+.PurificCity.rnr-s-empty > * > :not(.rnr-b-wrapper) .style3
+{
+color: #333333;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-empty > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificCity.rnr-s-empty > * > :not(.rnr-b-wrapper) .style3,
+.PurificCity.rnr-s-empty > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-menu > .rnr-c
+{
+border: solid #C0C0C0 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.PurificCity.rnr-s-menu > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.PurificCity.rnr-s-menu > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.PurificCity.rnr-s-menu > :not(.runner-c) > *.style1,
+.PurificCity.rnr-s-menu > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #696969;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-menu > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #696969;
+}
+.PurificCity.rnr-s-menu > :not(.runner-c) > *.style2,
+.PurificCity.rnr-s-menu > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #343434;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-menu > :not(.runner-c) > *.style3,
+.PurificCity.rnr-s-menu > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #444444;color: #DCDCDC;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-menu > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.PurificCity.rnr-s-menu > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.PurificCity.rnr-s-menu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificCity.rnr-s-menu > * > :not(.rnr-b-wrapper) .style1,
+.PurificCity.rnr-s-menu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-menu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificCity.rnr-s-menu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificCity.rnr-s-menu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificCity.rnr-s-menu > * > :not(.rnr-b-wrapper) .style2,
+.PurificCity.rnr-s-menu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-menu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificCity.rnr-s-menu > * > :not(.rnr-b-wrapper) .style3,
+.PurificCity.rnr-s-menu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-hmenu > .rnr-c
+{
+background:none;
+
+}
+.PurificCity.rnr-s-hmenu > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.PurificCity.rnr-s-hmenu > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.PurificCity.rnr-s-hmenu > :not(.runner-c) > *.style1,
+.PurificCity.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style1
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-hmenu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificCity.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style1,
+.PurificCity.rnr-s-hmenu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 6px 4px;
+}
+.PurificCity.rnr-s-hmenu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificCity.rnr-s-hmenu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificCity.rnr-s-hmenu > :not(.runner-c) > *.style2,
+.PurificCity.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style2
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-hmenu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificCity.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style2,
+.PurificCity.rnr-s-hmenu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-hmenu > :not(.runner-c) > *.style3,
+.PurificCity.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style3
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-hmenu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificCity.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style3,
+.PurificCity.rnr-s-hmenu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-undermenu > .rnr-c
+{
+border: solid #6699CC 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.PurificCity.rnr-s-undermenu > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.PurificCity.rnr-s-undermenu > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.PurificCity.rnr-s-undermenu > :not(.runner-c) > *.style1,
+.PurificCity.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #343434;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-undermenu > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #343434;
+}
+.PurificCity.rnr-s-undermenu > :not(.runner-c) > *.style2,
+.PurificCity.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #FFFF00;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-undermenu > :not(.runner-c) > *.style3,
+.PurificCity.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #FFFF00;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-undermenu > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.PurificCity.rnr-s-undermenu > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.PurificCity.rnr-s-undermenu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificCity.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style1,
+.PurificCity.rnr-s-undermenu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-undermenu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificCity.rnr-s-undermenu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificCity.rnr-s-undermenu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificCity.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style2,
+.PurificCity.rnr-s-undermenu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-undermenu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificCity.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style3,
+.PurificCity.rnr-s-undermenu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-fields > .rnr-c
+{
+border: solid #6699CC 1px;border-top-left-radius: 4px;border-top-right-radius: 4px;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;
+}
+.PurificCity.rnr-s-fields > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 3px; padding-left: 2px;
+border-bottom-left-radius: 3px; padding-left: 2px;
+
+}
+.PurificCity.rnr-s-fields > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 3px; padding-right: 2px;
+border-bottom-right-radius: 3px; padding-right: 2px;
+
+}
+.PurificCity.rnr-s-fields > :not(.runner-c) > *.style1,
+.PurificCity.rnr-s-fields > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #FFFFFF;
+background: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+;
+color: #333381;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-fields > .rnr-c.rnr-ch
+{
+background-color: #FFFFFF;
+background: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+;
+
+}
+.PurificCity.rnr-s-fields > :not(.runner-c) > *.style2,
+.PurificCity.rnr-s-fields > * > :not(.rnr-b-wrapper) .style2
+{
+background-color: #407EBD;
+background: -webkit-linear-gradient(bottom, #3A73AD, #407EBD);
+background: -moz-linear-gradient(bottom, #3A73AD, #407EBD);
+background: -ms-linear-gradient(bottom, #3A73AD, #407EBD);
+background: -o-linear-gradient(bottom, #3A73AD, #407EBD);
+;
+color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-fields > :not(.runner-c) > *.style3,
+.PurificCity.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3
+{
+background-color: #FFFFFF;
+background: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+;
+color: #696969;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-fields > .rnr-c .rnr-leftbricks
+{
+margin-left: 4px;
+}
+.PurificCity.rnr-s-fields > .rnr-c .rnr-rightbricks
+{
+margin-right: 4px;
+}
+.PurificCity.rnr-s-fields > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificCity.rnr-s-fields > * > :not(.rnr-b-wrapper) .style1,
+.PurificCity.rnr-s-fields > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 6px;
+}
+.PurificCity.rnr-s-fields > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 4px; background:transparent;
+}
+.PurificCity.rnr-s-fields > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 4px; background:transparent;
+}
+.PurificCity.rnr-s-fields > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificCity.rnr-s-fields > * > :not(.rnr-b-wrapper) .style2,
+.PurificCity.rnr-s-fields > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 8px 4px;
+}
+.PurificCity.rnr-s-fields > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificCity.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3,
+.PurificCity.rnr-s-fields > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-form > .rnr-c
+{
+border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+}
+.PurificCity.rnr-s-form > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 10px; padding-left: 5px;
+border-bottom-left-radius: 10px; padding-left: 5px;
+
+}
+.PurificCity.rnr-s-form > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 10px; padding-right: 5px;
+border-bottom-right-radius: 10px; padding-right: 5px;
+
+}
+.PurificCity.rnr-s-form > :not(.runner-c) > *.style1,
+.PurificCity.rnr-s-form > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #00CCCC;color: #000080;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-form > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #00CCCC;
+}
+.PurificCity.rnr-s-form > :not(.runner-c) > *.style2,
+.PurificCity.rnr-s-form > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #004080;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-form > :not(.runner-c) > *.style3,
+.PurificCity.rnr-s-form > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #6699CC;color: #003366;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-form > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.PurificCity.rnr-s-form > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.PurificCity.rnr-s-form > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificCity.rnr-s-form > * > :not(.rnr-b-wrapper) .style1,
+.PurificCity.rnr-s-form > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-form > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificCity.rnr-s-form > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificCity.rnr-s-form > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificCity.rnr-s-form > * > :not(.rnr-b-wrapper) .style2,
+.PurificCity.rnr-s-form > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-form > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificCity.rnr-s-form > * > :not(.rnr-b-wrapper) .style3,
+.PurificCity.rnr-s-form > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-1 > .rnr-c
+{
+border: solid #DCDCDC 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.PurificCity.rnr-s-1 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.PurificCity.rnr-s-1 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.PurificCity.rnr-s-1 > :not(.runner-c) > *.style1,
+.PurificCity.rnr-s-1 > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #F9F9F9;
+background: -webkit-linear-gradient(top, #FAFAFA, #F9F9F9);
+background: -moz-linear-gradient(top, #FAFAFA, #F9F9F9);
+background: -ms-linear-gradient(top, #FAFAFA, #F9F9F9);
+background: -o-linear-gradient(top, #FAFAFA, #F9F9F9);
+;
+color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-1 > .rnr-c.rnr-ch
+{
+background-color: #F9F9F9;
+background: -webkit-linear-gradient(top, #FAFAFA, #F9F9F9);
+background: -moz-linear-gradient(top, #FAFAFA, #F9F9F9);
+background: -ms-linear-gradient(top, #FAFAFA, #F9F9F9);
+background: -o-linear-gradient(top, #FAFAFA, #F9F9F9);
+;
+
+}
+.PurificCity.rnr-s-1 > :not(.runner-c) > *.style2,
+.PurificCity.rnr-s-1 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #407EBD;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-1 > :not(.runner-c) > *.style3,
+.PurificCity.rnr-s-1 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #6699CC;color: #D1EEEE;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-1 > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.PurificCity.rnr-s-1 > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.PurificCity.rnr-s-1 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificCity.rnr-s-1 > * > :not(.rnr-b-wrapper) .style1,
+.PurificCity.rnr-s-1 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-1 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificCity.rnr-s-1 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificCity.rnr-s-1 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificCity.rnr-s-1 > * > :not(.rnr-b-wrapper) .style2,
+.PurificCity.rnr-s-1 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-1 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificCity.rnr-s-1 > * > :not(.rnr-b-wrapper) .style3,
+.PurificCity.rnr-s-1 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-2 > .rnr-c
+{
+border: solid #DCDCDC 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.PurificCity.rnr-s-2 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.PurificCity.rnr-s-2 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.PurificCity.rnr-s-2 > :not(.runner-c) > *.style1,
+.PurificCity.rnr-s-2 > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #F9F9F9;
+background: -webkit-linear-gradient(top, #FEFEFE, #F9F9F9);
+background: -moz-linear-gradient(top, #FEFEFE, #F9F9F9);
+background: -ms-linear-gradient(top, #FEFEFE, #F9F9F9);
+background: -o-linear-gradient(top, #FEFEFE, #F9F9F9);
+;
+color: #333333;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-2 > .rnr-c.rnr-ch
+{
+background-color: #F9F9F9;
+background: -webkit-linear-gradient(top, #FEFEFE, #F9F9F9);
+background: -moz-linear-gradient(top, #FEFEFE, #F9F9F9);
+background: -ms-linear-gradient(top, #FEFEFE, #F9F9F9);
+background: -o-linear-gradient(top, #FEFEFE, #F9F9F9);
+;
+
+}
+.PurificCity.rnr-s-2 > :not(.runner-c) > *.style2,
+.PurificCity.rnr-s-2 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #3366FF;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-2 > :not(.runner-c) > *.style3,
+.PurificCity.rnr-s-2 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #6699CC;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-2 > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.PurificCity.rnr-s-2 > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.PurificCity.rnr-s-2 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificCity.rnr-s-2 > * > :not(.rnr-b-wrapper) .style1,
+.PurificCity.rnr-s-2 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-2 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificCity.rnr-s-2 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificCity.rnr-s-2 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificCity.rnr-s-2 > * > :not(.rnr-b-wrapper) .style2,
+.PurificCity.rnr-s-2 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-2 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificCity.rnr-s-2 > * > :not(.rnr-b-wrapper) .style3,
+.PurificCity.rnr-s-2 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-3 > .rnr-c
+{
+border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+}
+.PurificCity.rnr-s-3 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 10px; padding-left: 5px;
+border-bottom-left-radius: 10px; padding-left: 5px;
+
+}
+.PurificCity.rnr-s-3 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 10px; padding-right: 5px;
+border-bottom-right-radius: 10px; padding-right: 5px;
+
+}
+.PurificCity.rnr-s-3 > :not(.runner-c) > *.style1,
+.PurificCity.rnr-s-3 > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #343434;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-3 > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #343434;
+}
+.PurificCity.rnr-s-3 > :not(.runner-c) > *.style2,
+.PurificCity.rnr-s-3 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #2E5C8B;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-3 > :not(.runner-c) > *.style3,
+.PurificCity.rnr-s-3 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #004080;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.rnr-s-3 > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.PurificCity.rnr-s-3 > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.PurificCity.rnr-s-3 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificCity.rnr-s-3 > * > :not(.rnr-b-wrapper) .style1,
+.PurificCity.rnr-s-3 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-3 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificCity.rnr-s-3 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificCity.rnr-s-3 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificCity.rnr-s-3 > * > :not(.rnr-b-wrapper) .style2,
+.PurificCity.rnr-s-3 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-3 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificCity.rnr-s-3 > * > :not(.rnr-b-wrapper) .style3,
+.PurificCity.rnr-s-3 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > th:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > th:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > td:not(.rnr-cs)
+{
+border-top: solid #D8DCDE 1px;
+
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:last-child > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:last-child > td:not(.rnr-cs)
+{
+border-bottom: solid #D8DCDE 1px;
+
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > td:first-child,
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > td:first-child,
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > th:first-child,
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > th:first-child,
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-cs + td,
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-cs + td,
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-cs + th,
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-cs + th
+{
+border-left: solid #D8DCDE 1px;
+
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-edge,
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-edge
+{
+border-right: solid #D8DCDE 1px;
+
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow > th:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow > th:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow > td:not(.rnr-cs)
+{
+background-color: #16589C; background-image: none;font-family: Verdana, sans-serif; font-size: 11px; font-weight: bold; font-style: normal; text-decoration: none;color: #FFFFFF;padding: 5px 4px;
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-bottomrow > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-bottomrow > td:not(.rnr-cs)
+{
+background-color: #DCE2E6; background-image: none;font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;color: #333333;padding: 5px 4px;
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row > td:not(.rnr-cs)
+{
+background-color: #F7F7F7; background-image: none;font-family: Verdana, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;color: #333333;color: #333333;padding: 5px 4px;
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row:nth-last-child(2n+1) > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row:nth-last-child(2n+1) > td:not(.rnr-cs)
+{
+background-color: #FFFFFF; background-image: none;color: #333333;
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical).hoverable > * > .rnr-row:hover > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord.hoverable > * > .rnr-row:hover > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row > td.rnr-selected,
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row > td.rnr-selected
+{
+background-color: #DCDCDC; background-image: none;color: #333333;
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical).hoverable > * > .rnr-row:hover:nth-last-child(2n+1) > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord.hoverable > * > .rnr-row:hover:nth-last-child(2n+1) > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row:nth-last-child(2n+1) > td.rnr-selected,
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row:nth-last-child(2n+1) > td.rnr-selected
+{
+background-color: #C0C0C0; background-image: none;color: #333333;
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > thead > tr:last-child > th:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > thead > tr:last-child > th:not(.rnr-cs)
+{
+border-bottom: solid #D8DCDE 1px;
+
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > tr.rnr-row > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > tr.rnr-row > td:not(.rnr-cs)
+{
+border-top: solid #D8DCDE 1px;
+
+}
+.PurificCity.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:not(.rnr-bottomrow) + .rnr-bottomrow > td:not(.rnr-cs),
+.PurificCity.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:not(.rnr-bottomrow) + .rnr-bottomrow > td:not(.rnr-cs)
+{
+border-top: solid #D8DCDE 1px;
+
+}
+.PurificCity .rnr-search-highlight
+{
+color: #FF0000; background-color: transparent;
+}
+.PurificCity .rnr-b-vmenu.simple.main > *,
+.PurificCity .rnr-b-vmenu.tree.main > *:not(.subitem)
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #7F7F7F, #343434);
+background: -moz-linear-gradient(top, #7F7F7F, #343434);
+background: -ms-linear-gradient(top, #7F7F7F, #343434);
+background: -o-linear-gradient(top, #7F7F7F, #343434);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.main > * > hr,
+.PurificCity .rnr-b-vmenu.tree.main > *:not(.subitem) > hr
+{
+border-color:#FFFFFF;
+}
+.PurificCity .rnr-b-vmenu.simple.main > *:hover:not(.expanded):not(.menuSeparator),
+.PurificCity .rnr-b-vmenu.tree.main > *:not(.subitem):not(.manage):hover:not(.menuSeparator)
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #7F7F7F, #343434);
+background: -moz-linear-gradient(top, #7F7F7F, #343434);
+background: -ms-linear-gradient(top, #7F7F7F, #343434);
+background: -o-linear-gradient(top, #7F7F7F, #343434);
+;
+color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.main > *.current.current.current,
+.PurificCity .rnr-b-vmenu.tree.main > *:not(.subitem).current.current.current
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #7F7F7F, #343434);
+background: -moz-linear-gradient(top, #7F7F7F, #343434);
+background: -ms-linear-gradient(top, #7F7F7F, #343434);
+background: -o-linear-gradient(top, #7F7F7F, #343434);
+;
+color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.main > *:hover:hover:hover.expanded
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #7F7F7F, #343434);
+background: -moz-linear-gradient(top, #7F7F7F, #343434);
+background: -ms-linear-gradient(top, #7F7F7F, #343434);
+background: -o-linear-gradient(top, #7F7F7F, #343434);
+;
+color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.main > * > ul li,
+.PurificCity .rnr-b-vmenu.tree.main > *.subitem
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #DADADA, #343434);
+background: -moz-linear-gradient(top, #DADADA, #343434);
+background: -ms-linear-gradient(top, #DADADA, #343434);
+background: -o-linear-gradient(top, #DADADA, #343434);
+;
+color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.main > * > ul li > hr,
+.PurificCity .rnr-b-vmenu.tree.main > *.subitem > hr
+{
+border-color:#9D9D9D;
+}
+.PurificCity .rnr-b-vmenu.simple.main > * > ul li:hover:not(.expanded):not(.menuSeparator),
+.PurificCity .rnr-b-vmenu.tree.main > *.subitem:hover:not(.menuSeparator)
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #DADADA, #343434);
+background: -moz-linear-gradient(top, #DADADA, #343434);
+background: -ms-linear-gradient(top, #DADADA, #343434);
+background: -o-linear-gradient(top, #DADADA, #343434);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.main > * > ul li.current.current.current,
+.PurificCity .rnr-b-vmenu.tree.main > *.subitem.current.current.current
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #DADADA, #343434);
+background: -moz-linear-gradient(top, #DADADA, #343434);
+background: -ms-linear-gradient(top, #DADADA, #343434);
+background: -o-linear-gradient(top, #DADADA, #343434);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.main > * > ul li:hover:hover:hover.expanded
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #DADADA, #343434);
+background: -moz-linear-gradient(top, #DADADA, #343434);
+background: -ms-linear-gradient(top, #DADADA, #343434);
+background: -o-linear-gradient(top, #DADADA, #343434);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.tree.main > *:not(.subitem) > div
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.PurificCity .rnr-b-vmenu.simple.main > * > :not(ul) > *
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.PurificCity .rnr-b-vmenu.tree.main > *.subitem > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificCity .rnr-b-vmenu.simple.main > * > ul li > :not(ul) > *
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificCity .rnr-b-vmenu.simple.main >  * ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.PurificCity .rnr-b-vmenu.simple.second > *,
+.PurificCity .rnr-b-vmenu.tree.second > *:not(.subitem)
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #7F7F7F, #343434);
+background: -moz-linear-gradient(top, #7F7F7F, #343434);
+background: -ms-linear-gradient(top, #7F7F7F, #343434);
+background: -o-linear-gradient(top, #7F7F7F, #343434);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.second > * > hr,
+.PurificCity .rnr-b-vmenu.tree.second > *:not(.subitem) > hr
+{
+border-color:#FFFFFF;
+}
+.PurificCity .rnr-b-vmenu.simple.second > *:hover:not(.expanded):not(.menuSeparator),
+.PurificCity .rnr-b-vmenu.tree.second > *:not(.subitem):not(.manage):hover:not(.menuSeparator)
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #7F7F7F, #343434);
+background: -moz-linear-gradient(top, #7F7F7F, #343434);
+background: -ms-linear-gradient(top, #7F7F7F, #343434);
+background: -o-linear-gradient(top, #7F7F7F, #343434);
+;
+color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.second > *.current.current.current,
+.PurificCity .rnr-b-vmenu.tree.second > *:not(.subitem).current.current.current
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #7F7F7F, #343434);
+background: -moz-linear-gradient(top, #7F7F7F, #343434);
+background: -ms-linear-gradient(top, #7F7F7F, #343434);
+background: -o-linear-gradient(top, #7F7F7F, #343434);
+;
+color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.second > *:hover:hover:hover.expanded
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #7F7F7F, #343434);
+background: -moz-linear-gradient(top, #7F7F7F, #343434);
+background: -ms-linear-gradient(top, #7F7F7F, #343434);
+background: -o-linear-gradient(top, #7F7F7F, #343434);
+;
+color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.second > * > ul li,
+.PurificCity .rnr-b-vmenu.tree.second > *.subitem
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #DADADA, #343434);
+background: -moz-linear-gradient(top, #DADADA, #343434);
+background: -ms-linear-gradient(top, #DADADA, #343434);
+background: -o-linear-gradient(top, #DADADA, #343434);
+;
+color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.second > * > ul li > hr,
+.PurificCity .rnr-b-vmenu.tree.second > *.subitem > hr
+{
+border-color:#9D9D9D;
+}
+.PurificCity .rnr-b-vmenu.simple.second > * > ul li:hover:not(.expanded):not(.menuSeparator),
+.PurificCity .rnr-b-vmenu.tree.second > *.subitem:hover:not(.menuSeparator)
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #DADADA, #343434);
+background: -moz-linear-gradient(top, #DADADA, #343434);
+background: -ms-linear-gradient(top, #DADADA, #343434);
+background: -o-linear-gradient(top, #DADADA, #343434);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.second > * > ul li.current.current.current,
+.PurificCity .rnr-b-vmenu.tree.second > *.subitem.current.current.current
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #DADADA, #343434);
+background: -moz-linear-gradient(top, #DADADA, #343434);
+background: -ms-linear-gradient(top, #DADADA, #343434);
+background: -o-linear-gradient(top, #DADADA, #343434);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.simple.second > * > ul li:hover:hover:hover.expanded
+{
+background-color: #343434;
+background: -webkit-linear-gradient(top, #DADADA, #343434);
+background: -moz-linear-gradient(top, #DADADA, #343434);
+background: -ms-linear-gradient(top, #DADADA, #343434);
+background: -o-linear-gradient(top, #DADADA, #343434);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-vmenu.tree.second > *:not(.subitem) > div
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.PurificCity .rnr-b-vmenu.simple.second > * > :not(ul) > *
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.PurificCity .rnr-b-vmenu.tree.second > *.subitem > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificCity .rnr-b-vmenu.simple.second > * > ul li > :not(ul) > *
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificCity .rnr-b-vmenu.simple.second >  * ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.PurificCity .rnr-b-hmenu.main > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #343434;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;padding: 5px 4px;border-top-right-radius: 8px;border: solid #494949 1px;
+}
+.PurificCity .rnr-b-hmenu.main > div:not(.rnr-hseparator) > hr
+{
+border-color:#FFFFFF;
+}
+.PurificCity .rnr-b-hmenu.main:hover:not(.expanded) > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #343434;color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.main.current.current > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #343434;color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.main:hover.expanded > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #343434;color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.main > ul li
+{
+background-image:none; background-color: #343434;color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.main > ul li > hr
+{
+border-color:#9D9D9D;
+}
+.PurificCity .rnr-b-hmenu.main > ul li:hover:not(.expanded):not(.menuSeparator)
+{
+background-image:none; background-color: #343434;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.main > ul li.current.current
+{
+background-image:none; background-color: #343434;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.main > ul li:hover.expanded
+{
+background-image:none; background-color: #343434;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.main > ul li > div > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificCity .rnr-b-hmenu.main ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.PurificCity .rnr-b-hmenu.main.rnr-b-hmenu.rnr-b-hmenu
+{
+padding-bottom: 0; padding-left:0; padding-right:0; vertical-align: bottom;
+}
+.PurificCity .rnr-b-hmenu.second > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #343434;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;padding: 5px 4px;border-top-right-radius: 8px;border: solid #494949 1px;
+}
+.PurificCity .rnr-b-hmenu.second > div:not(.rnr-hseparator) > hr
+{
+border-color:#FFFFFF;
+}
+.PurificCity .rnr-b-hmenu.second:hover:not(.expanded) > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #343434;color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.second.current.current > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #343434;color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.second:hover.expanded > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #343434;color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.second > ul li
+{
+background-image:none; background-color: #343434;color:#9D9D9D;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.second > ul li > hr
+{
+border-color:#9D9D9D;
+}
+.PurificCity .rnr-b-hmenu.second > ul li:hover:not(.expanded):not(.menuSeparator)
+{
+background-image:none; background-color: #343434;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.second > ul li.current.current
+{
+background-image:none; background-color: #343434;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.second > ul li:hover.expanded
+{
+background-image:none; background-color: #343434;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificCity .rnr-b-hmenu.second > ul li > div > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificCity .rnr-b-hmenu.second ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.PurificCity .rnr-b-hmenu.second.rnr-b-hmenu.rnr-b-hmenu
+{
+padding-bottom: 0; padding-left:0; padding-right:0; vertical-align: bottom;
+}
+body.PurificCity
+{
+
+background-color:#F7F7F7;
+}
+.PurificCity .rnr-list
+{
+color: #000000;background-color: #FFFFFF;font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;border: solid #696969 1px;box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.PurificCity .rnr-tab.selected
+{
+background-color:#16589C;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+
+}
+.PurificCity .rnr-tab
+{
+background-color:#E9E9E9;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border: solid #808080 1px; border-bottom-width:0;
+}
+.PurificCity .rnr-tab.selected > a
+{
+color: #FFFFFF;
+
+}
+.PurificCity .rnr-tab > a
+{
+color: #000000;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .yui-navset .yui-content
+{
+border: solid #16589C 1px;border-top-width: 5px;
+}
+.PurificCity  .rnr-message
+{
+background-color: #EBEDEF;border: solid #C0C0C0 1px;color: #16589C;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity  .rnr-error.rnr-error
+{
+color: #A80000;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .yui3-panel-content.yui3-panel-content
+{
+border: solid #DCDCDC 1px;border-radius: 2px;
+}
+.PurificCity  .yui3-panel .yui3-widget-hd.yui3-widget-hd.yui3-widget-hd
+{
+background-color: #407EBD; background-image: none;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.PurificCity  .yui3-widget-ft
+{
+background-color: #407EBD;
+background: -webkit-linear-gradient(bottom, #3A73AD, #407EBD);
+background: -moz-linear-gradient(bottom, #3A73AD, #407EBD);
+background: -ms-linear-gradient(bottom, #3A73AD, #407EBD);
+background: -o-linear-gradient(bottom, #3A73AD, #407EBD);
+;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.PurificCity .rnr-dbbordered
+{
+border: solid #DCDCDC 1px;border-radius: 2px;
+}
+.PurificCity  .rnr-dbelemheader
+{
+background-color: #407EBD; background-image: none;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.PurificCity  .rnr-dbelemfooter
+{
+background-color: #D8D8D8;
+background: -webkit-linear-gradient(bottom, #C6C6C6, #D8D8D8);
+background: -moz-linear-gradient(bottom, #C6C6C6, #D8D8D8);
+background: -ms-linear-gradient(bottom, #C6C6C6, #D8D8D8);
+background: -o-linear-gradient(bottom, #C6C6C6, #D8D8D8);
+;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;color: #000000;
+}
+.PurificCity  .rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow
+{
+background-color: #FFFACD; background-image: none;font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;color: #4C4951;
+}
+.PurificCity .rnr-dashboard
+{
+background-color: #FFFFFF;
+}
+.PurificCity .rnr-button.rnr-button,
+.PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+.PurificCity .button.button.button.rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificCity .rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificCity .button.button.button.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .button.button.button.rnr-button.rnr-button
+{
+border: solid 1px;border-radius: 2px;padding: 3px 10px 3px;background-color: #E2E6E7;
+background: -webkit-linear-gradient(top, #F6F8F8, #E2E6E7);
+background: -moz-linear-gradient(top, #F6F8F8, #E2E6E7);
+background: -ms-linear-gradient(top, #F6F8F8, #E2E6E7);
+background: -o-linear-gradient(top, #F6F8F8, #E2E6E7);
+;
+border-color: #849197;color: #333333;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .rnr-button.rnr-button.img,
+.PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+.PurificCity .button.button.button.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificCity .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificCity .button.button.button.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .button.button.button.rnr-button.rnr-button.img
+{
+padding: 3px;
+
+}
+.PurificCity .rnr-button:hover,
+.PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+.PurificCity .button.button.button.rnr-button:hover,
+ .rnr-pagewrapper .PurificCity .rnr-button:hover,
+ .rnr-pagewrapper .PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .PurificCity .button.button.button.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .button.button.button.rnr-button:hover
+{
+background-color: #FFFFFF;
+background: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+;
+border-color: #849197;color: #333333;
+
+}
+.PurificCity .rnr-button:active,
+.PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+.PurificCity .button.button.button.rnr-button:active,
+ .rnr-pagewrapper .PurificCity .rnr-button:active,
+ .rnr-pagewrapper .PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .PurificCity .button.button.button.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .button.button.button.rnr-button:active
+{
+background-color: #DFE2E4;
+background: -webkit-linear-gradient(top, #F6F6F7, #DFE2E4);
+background: -moz-linear-gradient(top, #F6F6F7, #DFE2E4);
+background: -ms-linear-gradient(top, #F6F6F7, #DFE2E4);
+background: -o-linear-gradient(top, #F6F6F7, #DFE2E4);
+;
+border-color: #849197;color: #333333;
+
+}
+.PurificCity .rnr-button.disabled,
+.PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+.PurificCity .button.button.button.rnr-button.disabled,
+ .rnr-pagewrapper .PurificCity .rnr-button.disabled,
+ .rnr-pagewrapper .PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .PurificCity .button.button.button.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .button.button.button.rnr-button.disabled
+{
+background-color: #C0C0C0;
+background: -webkit-linear-gradient(top, #EDEDED, #C0C0C0);
+background: -moz-linear-gradient(top, #EDEDED, #C0C0C0);
+background: -ms-linear-gradient(top, #EDEDED, #C0C0C0);
+background: -o-linear-gradient(top, #EDEDED, #C0C0C0);
+;
+border-color: #696969;color: #A9A9A9;
+
+}
+.PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+.PurificCity .link.link.link.rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificCity .link.link.link.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .link.link.link.rnr-button.rnr-button
+{
+background: none; border: none; ;
+border: none;border-radius: 0px;padding: 4px 8px 4px;color: #404040;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+.PurificCity .link.link.link.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificCity .link.link.link.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .link.link.link.rnr-button.rnr-button.img
+{
+padding: 4px;
+
+}
+.PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+.PurificCity .link.link.link.rnr-button:hover,
+ .rnr-pagewrapper .PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .PurificCity .link.link.link.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .link.link.link.rnr-button:hover
+{
+color: #FE4F29;
+
+}
+.PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+.PurificCity .link.link.link.rnr-button:active,
+ .rnr-pagewrapper .PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .PurificCity .link.link.link.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .link.link.link.rnr-button:active
+{
+color: #004080;
+
+}
+.PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+.PurificCity .link.link.link.rnr-button.disabled,
+ .rnr-pagewrapper .PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .PurificCity .link.link.link.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .link.link.link.rnr-button.disabled
+{
+color: #004080;
+
+}
+.PurificCity .main.main.main.rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificCity .main.main.main.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .main.main.main.rnr-button.rnr-button
+{
+border: solid 1px;border-radius: 2px;padding: 3px 10px 3px;background-color: #F4F5F7;
+background: -webkit-linear-gradient(top, #FBFCFC, #F4F5F7);
+background: -moz-linear-gradient(top, #FBFCFC, #F4F5F7);
+background: -ms-linear-gradient(top, #FBFCFC, #F4F5F7);
+background: -o-linear-gradient(top, #FBFCFC, #F4F5F7);
+;
+border-color: #849197;color: #333333;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificCity .main.main.main.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificCity .main.main.main.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .main.main.main.rnr-button.rnr-button.img
+{
+padding: 3px;
+
+}
+.PurificCity .main.main.main.rnr-button:hover,
+ .rnr-pagewrapper .PurificCity .main.main.main.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .main.main.main.rnr-button:hover
+{
+background-color: #FFFFFF;
+background: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+background: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+;
+border-color: #849197;color: #333333;
+
+}
+.PurificCity .main.main.main.rnr-button:active,
+ .rnr-pagewrapper .PurificCity .main.main.main.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .main.main.main.rnr-button:active
+{
+background-color: #DFE2E4;
+background: -webkit-linear-gradient(top, #F6F6F7, #DFE2E4);
+background: -moz-linear-gradient(top, #F6F6F7, #DFE2E4);
+background: -ms-linear-gradient(top, #F6F6F7, #DFE2E4);
+background: -o-linear-gradient(top, #F6F6F7, #DFE2E4);
+;
+border-color: #849197;color: #333333;
+
+}
+.PurificCity .main.main.main.rnr-button.disabled,
+ .rnr-pagewrapper .PurificCity .main.main.main.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificCity .main.main.main.rnr-button.disabled
+{
+background-color: #C0C0C0;
+background: -webkit-linear-gradient(top, #EDEDED, #C0C0C0);
+background: -moz-linear-gradient(top, #EDEDED, #C0C0C0);
+background: -ms-linear-gradient(top, #EDEDED, #C0C0C0);
+background: -o-linear-gradient(top, #EDEDED, #C0C0C0);
+;
+border-color: #696969;color: #A9A9A9;
+
+}

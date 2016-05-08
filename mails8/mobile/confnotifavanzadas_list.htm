@@ -1,0 +1,352 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		<link REL="stylesheet" href="styles/default_mobile.css" type="text/css">
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+				<div>
+					
+
+
+
+{BEGIN container_toppanel}
+<div class="rnr-c rnr-ch rnr-c-toppanel">
+
+{BEGIN menu_block}
+<div  class="style1 rnr-bl rnr-b-vmenu_mobile {$brickclass_vmenu_mobile}"><a href="#menu" id="menu_button" class="rnr-button" >Regresar al menú</a>
+</div>
+{END menu_block}
+
+
+{BEGIN tableinfomobile_block}
+<div  class="style1 rnr-bl rnr-b-tableinfo_mobile {$brickclass_tableinfo_mobile}"><b>Configuración de Notificaciones Avanzadas
+<span {$details_attrs} dir="ltr">
+	({$records_found})
+</span>
+</b></div>
+{END tableinfomobile_block}
+
+
+{BEGIN searchformmobile_block}
+<div  class="style1 rnr-bl rnr-b-search_mobile {$brickclass_search_mobile}"><div id="searchform_button{$id}">
+
+{BEGIN searchform_showall_mobile}	
+	<a href="#" class="rnr-button" {$showAllCont_attrs} {$showallbutton_attrs}>Mostrar todo</a>
+{END searchform_showall_mobile}
+</div></div>
+{END searchformmobile_block}
+
+
+{BEGIN morelinkmobile_block}
+			<span>
+	&nbsp;	
+	<a href="#" id="morebutton" class="rnr-button img" data-icon="paneldown"></a>
+</span>
+<ul id="more{$id}" style="display:none;" class="rnr-more-container rnr-list">
+{BEGIN newrecord_controls_block}
+<li id="newrecord_controls{$id}">
+	{BEGIN add_link}
+		<a href="confnotifavanzadas_add.php" class="rnr-button" {$addlink_attrs}>Añadir nuevo</a>
+	{END add_link}
+</li>
+{END newrecord_controls_block}
+
+{BEGIN record_controls_block}
+<li id="record_controls{$id}">
+	
+	</li>
+{END record_controls_block}
+<li>
+<a href="#" id="more_close" class="rnr-button link">Cancelar</a>
+</li>
+</ul>
+ {END morelinkmobile_block}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_toppanel}
+
+
+				</div>
+				<div>
+					
+
+
+
+{BEGIN container_menu}
+<div class="rnr-c rnr-cv rnr-c-menu">
+
+{BEGIN menu_block}
+{$menu main}
+{END menu_block}
+
+
+</div>
+{END container_menu}
+
+
+
+{BEGIN container_menu1}
+<div class="rnr-c rnr-cv rnr-c-menu1">
+
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-fulltext_mobile {$brickclass_fulltext_mobile}"><div class="rnr-fulltext-content">
+
+</div>
+</div>
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-backbutton {$brickclass_backbutton}"><a href="#list" class="rnr-button" id="backbutton">Volver a la lista</a>
+</div>
+
+
+</div>
+{END container_menu1}
+
+
+
+{BEGIN container_message}
+<div class="rnr-c rnr-ch rnr-c-message">
+
+{BEGIN message_block}
+<div  class="style1 rnr-bc rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>
+{END message_block}
+
+
+</div>
+{END container_message}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+						<table class="rnr-c rnr-cont rnr-c-grid rnr-b-grid rnr-gridtable  hoverable " cellpadding="0" >
+						<thead>
+															{BEGIN grid_header}
+								<tr class="rnr-toprow style1 {$gridHeader_class}" >
+									{BEGIN record_header}
+																		{BEGIN checkbox_column}
+									<th class="rnr-cc rnr-bc">
+																			</th>
+									{END checkbox_column}
+									
+																		
+																										{BEGIN Tipo_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$Tipo_class}">
+									{BEGIN Tipo_fieldheader}
+																				<span {$Tipo_orderlinkattrs}>
+											{$label oc_conf_notif_avanz Tipo}
+										</span>
+									{END Tipo_fieldheader}
+									</th>
+									{END Tipo_fieldheadercolumn}
+
+																	{BEGIN Hora_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$Hora_class}">
+									{BEGIN Hora_fieldheader}
+																				<span {$Hora_orderlinkattrs}>
+											{$label oc_conf_notif_avanz Hora}
+										</span>
+									{END Hora_fieldheader}
+									</th>
+									{END Hora_fieldheadercolumn}
+
+																	{BEGIN Activa_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$Activa_class}">
+									{BEGIN Activa_fieldheader}
+																				<span {$Activa_orderlinkattrs}>
+											{$label oc_conf_notif_avanz Activa}
+										</span>
+									{END Activa_fieldheader}
+									</th>
+									{END Activa_fieldheadercolumn}
+
+
+									
+									<th class="rnr-edge">&nbsp;</th>
+									{BEGIN endrecordheader_block}
+									<th class="rnr-cs">&nbsp;</th>
+									{END endrecordheader_block}
+									
+									{END record_header}
+								</tr>
+								{END grid_header}
+
+						</thead>
+						<tbody>	
+															{BEGIN grid_row}
+								<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+									{BEGIN grid_record}
+																		{BEGIN checkbox_column}
+									<td class="rnr-cc rnr-bc" iEditCont="checkBox"  {$rowstyle} {$recordattrs}>
+																		
+																		<div {$rowattrs} name="flybutton" style="display:none; padding:0px; z-index:1000;" class="rnr-flybutton runner-wrapper">
+										<ul cellpadding="0" class="rnr-more rnr-list">
+										<li>
+																			{BEGIN listIcons_column}
+																					{BEGIN edit_column}
+											{BEGIN edit_link}
+												<a class="rnr-button img" data-icon="edit" {$editlink_attrs} title="Editar"></a>
+											{END edit_link}
+											{END edit_column}
+
+																					{BEGIN view_column}
+											{BEGIN view_link}
+												<a class="rnr-button img" {$viewlink_attrs} data-icon="view" title="Ver"></a>
+											{END view_link}
+											{END view_column}
+										{END listIcons_column}	
+									</li>
+									</ul>
+									</div>
+									</td>
+									{END checkbox_column}
+
+										{BEGIN Tipo_fieldcolumn}
+	<td class="{$Tipo_class}" {$Tipo_style} {$recordattrs}>
+		{$Tipo_value}
+	</td>
+{END Tipo_fieldcolumn}
+
+	{BEGIN Hora_fieldcolumn}
+	<td class="{$Hora_class}" {$Hora_style} {$recordattrs}>
+		{$Hora_value}
+	</td>
+{END Hora_fieldcolumn}
+
+	{BEGIN Activa_fieldcolumn}
+	<td class="{$Activa_class}" {$Activa_style} {$recordattrs}>
+		{$Activa_value}
+	</td>
+{END Activa_fieldcolumn}
+
+
+									
+									<td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+									{BEGIN endrecord_block}
+									<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+									{END endrecord_block}
+									
+									{END grid_record}									
+								</tr>
+								{END grid_row}
+															
+						</tbody>
+					</table>
+					
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+
+{BEGIN container_bottompanel}
+<div class="rnr-c rnr-ch rnr-c-bottompanel">
+
+{BEGIN pagination_block}
+<div  class="style1 rnr-bl rnr-b-pagination {$brickclass_pagination}">{$pagination}</div>
+{END pagination_block}
+
+<div class="rnr-hfiller"></div>
+
+{BEGIN security_block}
+<div  class="style1 rnr-br rnr-b-loggedas_mobile {$brickclass_loggedas_mobile}">{BEGIN loggedas_message} 
+<span>Conectado como&nbsp;<b>{$username}</b>&nbsp;</span>
+{END loggedas_message}
+{BEGIN guestloginbutton}
+<a href="#" class="rnr-button" {$guestloginlink_attrs}>Conectar</a>
+{END guestloginbutton}
+{BEGIN logoutbutton}
+<a href="#" class="rnr-button" {$logoutlink_attrs}>Desconectarse</a>
+{END logoutbutton}
+{BEGIN adminarea_link}
+<a class="rnr-button" href="admin_rights_list.php" {$adminarealink_attrs}>Área de Permisos</a>
+{END adminarea_link}
+</div>
+{END security_block}
+
+
+</div>
+{END container_bottompanel}
+
+
+
+{BEGIN container_pagepanel}
+<div class="rnr-c rnr-ch rnr-c-pagepanel">
+
+{BEGIN details_block}
+<div  class="style1 rnr-bl rnr-b-details_found {$brickclass_details_found}">	<span {$details_attrs}>
+			Detalles encontrados: <b><span class="rnr-details_found_count">{$records_found}</span></b>
+	</span>
+</div>
+{END details_block}
+
+
+{BEGIN pages_block}
+<div  class="style1 rnr-bl rnr-b-page_of {$brickclass_page_of}">	<span {$pages_attrs}>
+		Página <b>{$page}</b> / <b>{$maxpages}</b>
+	</span>
+
+</div>
+{END pages_block}
+
+
+{BEGIN recordspp_block}
+<div  class="style1 rnr-bl rnr-b-recsperpage {$brickclass_recsperpage}">	<span id="recordspp_block{$id}" name="recordspp_block{$id}">
+			Resultados por página:&nbsp;{$recsPerPage}
+	</span>	
+</div>
+{END recordspp_block}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_pagepanel}
+
+
+
+{BEGIN container_flylist}
+<div class="rnr-c rnr-cv rnr-c-flylist">
+
+
+<div  class="rnr-brickcontents style2 rnr-b-flypanel_mobile {$brickclass_flypanel_mobile}">
+</div>
+
+
+</div>
+{END container_flylist}
+
+
+				</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

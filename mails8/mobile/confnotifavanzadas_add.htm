@@ -1,0 +1,112 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		<link REL="stylesheet" href="styles/default_mobile.css" type="text/css">
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+				<div>
+					
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style2 rnr-b-addheader_mobile {$brickclass_addheader_mobile}">{BEGIN back_button}
+<a href="#" class="rnr-button" id="extraBackButton{$id}">Volver a la lista</a>
+{END back_button}
+Configuración de Notificaciones Avanzadas, Añadir nuevo registro</div>
+
+
+{BEGIN message_block}
+<div  class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>{END message_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-addfields_atop {$brickclass_addfields_atop}"><div class="rnr-simplefields edit">
+	{BEGIN Tipo_fieldblock}
+<div data-fieldname="Tipo" class="rnr-field style1 {$fielddispclass_Tipo}">
+  <div class="rnr-label above">{BEGIN Tipo_label}{$label oc_conf_notif_avanz Tipo}{END Tipo_label}</div>
+  <div class="rnr-control style3">{$Tipo_editcontrol}</div>
+</div>
+{END Tipo_fieldblock}
+	{BEGIN Hora_fieldblock}
+<div data-fieldname="Hora" class="rnr-field style1 {$fielddispclass_Hora}">
+  <div class="rnr-label above">{BEGIN Hora_label}{$label oc_conf_notif_avanz Hora}{END Hora_label}</div>
+  <div class="rnr-control style3">{$Hora_editcontrol}</div>
+</div>
+{END Hora_fieldblock}
+	{BEGIN Activa_fieldblock}
+<div data-fieldname="Activa" class="rnr-field style1 {$fielddispclass_Activa}">
+  <div class="rnr-label above">{BEGIN Activa_label}{$label oc_conf_notif_avanz Activa}{END Activa_label}</div>
+  <div class="rnr-control style3">{$Activa_editcontrol}</div>
+</div>
+{END Activa_fieldblock}
+</div></div>
+
+
+{BEGIN addbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-addbuttons {$brickclass_addbuttons}">{BEGIN save_button}
+<a href="#" class="rnr-button main" id="saveButton{$id}">Guardar</a>
+{END save_button}
+{BEGIN reset_button}
+<a href="#" class="rnr-button" id="resetButton{$id}">Reiniciar</a>
+{END reset_button}
+{BEGIN cancel_button}
+<a href="#" class="rnr-button" id="cancelButton{$id}">Cancelar</a>
+{END cancel_button}
+{BEGIN back_button}
+<a href="#" class="rnr-button" id="backButton{$id}">Volver a la lista</a>
+{END back_button}
+{BEGIN backToMenu_button}
+<a href="#" class="rnr-button" id="backToMenuButton{$id}">Regresar al menú</a>
+{END backToMenu_button}</div>{END addbuttons}
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_flylist}
+<div class="rnr-c rnr-cv rnr-c-flylist">
+
+
+<div  class="rnr-brickcontents style2 rnr-b-flypanel_mobile {$brickclass_flypanel_mobile}">
+</div>
+
+
+</div>
+{END container_flylist}
+
+
+
+
+				</div>
+				<div>
+					
+				</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

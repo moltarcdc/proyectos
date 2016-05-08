@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}>
+  <HEAD>
+    <META http-equiv="X-UA-Compatible" content="IE=Edge">
+    <TITLE>
+      {$pagetitle}
+    </TITLE>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <LINK href="styles/default.css" rel="stylesheet" type="text/css">
+    {BEGIN rtlCSS}
+      <LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">
+    {END rtlCSS}
+    {BEGIN styleCSSFiles}
+      <LINK href="{$stylepath}" rel="stylesheet" type="text/css">
+    {END styleCSSFiles}
+    {BEGIN pageCSSFiles}
+      <LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">
+    {END pageCSSFiles}
+    <META name="GENERATOR" content="MSHTML 11.00.9600.16428">
+  </HEAD>
+  <BODY class="{$stylename} function-list" {$bodyattrs}>
+    {BEGIN body}
+      {$header}
+      <DIV class="rnr-page">
+        <DIV class="rnr-top {$blockclass_top}">
+          {BEGIN container_toplinks}
+            <DIV class="rnr-c rnr-ch rnr-c-toplinks">
+              <DIV class="rnr-hfiller">
+              </DIV>
+              {BEGIN security_block}
+                <DIV class="style1 rnr-br rnr-b-loggedas {$brickclass_loggedas}">
+                  <DIV id="login_block{$id}">
+                    {BEGIN loggedas_message}
+                      <SPAN>
+                        Conectado como&nbsp;
+                        <B>
+                          {$username}
+                        </B>
+                        &nbsp;
+                      </SPAN>
+                    {END loggedas_message}
+                    {BEGIN guestloginbutton}
+                      <SPAN>
+                        <A class="rnr-button" href="#" {$guestloginlink_attrs}>
+                          Conectar
+                        </A>
+                      </SPAN>
+                    {END guestloginbutton}
+                    {BEGIN logoutbutton}
+                      <A class="rnr-button" href="#" {$logoutlink_attrs}>
+                        Salir
+                      </A>
+                    {END logoutbutton}
+                    {BEGIN adminarea_link}
+                      <A class="rnr-button" href="admin_rights_list.php" {$adminarealink_attrs}>
+                        Área de Permisos
+                      </A>
+                    {END adminarea_link}
+                  </DIV>
+                </DIV>
+              {END security_block}
+            </DIV>
+          {END container_toplinks}
+          {BEGIN container_hmenu}
+            <DIV class="rnr-c rnr-ch rnr-c-hmenu">
+              {BEGIN menu_block}
+                {$menu main horizontal}
+              {END menu_block}
+              <DIV class="rnr-hfiller">
+              </DIV>
+            </DIV>
+          {END container_hmenu}
+          {BEGIN container_recordcontrols}
+            <DIV class="rnr-c rnr-ch rnr-c-recordcontrols">
+              {BEGIN record_controls_block}
+                <DIV class="style1 rnr-bl rnr-b-recordcontrol {$brickclass_recordcontrol}">
+                  {BEGIN widhtSelected}
+                    <SPAN class="rnr-buttons-group">
+                      <A class="rnr-button {$withSelectedClass}" id="selectButtonsToggler{$id}" href="#">
+                        Con los seleccionados...
+                      </A>
+                      <UL class="rnr-list" id="selectButtonsGroup{$id}">
+                        {BEGIN exportselected_link}
+                          <LI>
+                            <A class="rnr-button link" href="#" {$exportselectedlink_attrs} {$exportselectedlink_span}>
+                              Exportar
+                            </A>
+                          </LI>
+                        {END exportselected_link}
+                      </UL>
+                    </SPAN>
+                  {END widhtSelected}
+                </DIV>
+              {END record_controls_block}
+              {BEGIN more_list}
+                <DIV class="style1 rnr-bl rnr-b-toplinks {$brickclass_toplinks}">
+                  <SPAN class="rnr-buttons-group">
+                    {BEGIN moreButtons}
+                      <A class="rnr-button" id="extraButtonsToggler{$id}" href="#">
+                        Más...
+                      </A>
+                      <UL class="rnr-list rnr-buttons-group" id="extraButtonsGroup{$id}">
+                        {BEGIN asearch_link}
+                          <LI>
+                            <A class="rnr-button link" href="objetosdecalendario_search.php" {$advsearchlink_attrs}>
+                              Búsqueda avanzada
+                            </A>
+                          </LI>
+                        {END asearch_link}
+                        {BEGIN export_link}
+                          <LI>
+                            <A class="rnr-button link" href="objetosdecalendario_export.php" target="_blank" {$exportlink_attrs}>
+                              Exportar resultados
+                            </A>
+                          </LI>
+                        {END export_link}
+                      </UL>
+                    {END moreButtons}
+                  </SPAN>
+                </DIV>
+              {END more_list}
+              <DIV class="rnr-hfiller">
+              </DIV>
+            </DIV>
+          {END container_recordcontrols}
+        </DIV>
+        <DIV class="rnr-middle">
+          <DIV class="rnr-left {$blockclass_left}">
+            {BEGIN container_left}
+              <DIV class="rnr-c rnr-cv rnr-c-left">
+                {BEGIN searchform_block}
+                  <DIV class="rnr-brickcontents style2 rnr-b-vsearch1 {$brickclass_vsearch1}">
+                    Buscar por:
+                    {BEGIN searchPanelTopButtons}
+                      <SPAN>
+                        <A class="rnr-button img" id="showSrchWin{$id}" href="#" data-icon="panelfloat" {$showHideSearchWin_attrs}>
+                        </A>
+                        &nbsp;
+                        <A class="rnr-button img" id="showOptPanel{$id}" href="#" data-icon="paneldown" {$showHideSearchPanel_attrs}>
+                        </A>
+                      </SPAN>
+                    {END searchPanelTopButtons}
+                  </DIV>
+                {END searchform_block}
+                {BEGIN searchform_block}
+                  <DIV class="rnr-brickcontents style1 rnr-b-vsearch2 {$brickclass_vsearch2}">
+                    <DIV>
+                      <SPAN>
+                        {$simpleSearchFieldCombo}
+                        {$simpleSearchTypeCombo}
+                        {BEGIN searchform_text}
+                          <INPUT type="text" size="25" {$searchfor_attrs}>
+                        {END searchform_text}
+                        &nbsp;
+                        {BEGIN searchform_search}
+                          <A class="rnr-button img" href="#" data-icon="search" {$searchbutton_attrs}>
+                          </A>
+                        {END searchform_search}
+                        &nbsp;
+                        {BEGIN searchform_showall}
+                          <A class="rnr-button" href="#" {$showAllCont_attrs} {$showallbutton_attrs}>
+                            Mostrar todo
+                          </A>
+                        {END searchform_showall}
+                      </SPAN>
+                    </DIV>
+                  </DIV>
+                {END searchform_block}
+                {BEGIN searchsaving_block}
+                  <DIV class="rnr-brickcontents style1 rnr-b-search_saving_buttons {$brickclass_search_saving_buttons}">
+                    {BEGIN saveSeachButton}
+                      <A class="rnr-button" id="saveSearch{$id}" href="#">
+                        Grabar búsqueda
+                      </A>
+                    {END saveSeachButton}
+                    {BEGIN savedSeachesButton}
+                      <SPAN class="rnr-buttons-group">
+                        <A class="rnr-button" id="savedSearches{$id}" href="#" {$saveSearchButtonAttrs}>
+                          Búsquedas grabadas
+                        </A>
+                      </SPAN>
+                    {END savedSeachesButton}
+                  </DIV>
+                {END searchsaving_block}
+                {BEGIN searchPanel}
+                  <DIV class="rnr-brickcontents style1 rnr-b-searchpanel {$brickclass_searchpanel}">
+                    <DIV class="searchPanelContainer">
+                      <DIV class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+                        <DIV class="srchCritTop" style="display: none;">
+                          Criterio:&nbsp;<INPUT name="srchType{$id}" class="rnr-radio-button" type="radio" {$all_checkbox}>&nbsp;
+                          {BEGIN all_checkbox_label}
+                            <SPAN>
+                              todos
+                            </SPAN>
+                          {END all_checkbox_label}
+                          &nbsp;&nbsp;&nbsp;<INPUT name="srchType{$id}" class="rnr-radio-button" type="radio" {$any_checkbox}>&nbsp;
+                          {BEGIN any_checkbox_label}
+                            <SPAN>
+                              alguno
+                            </SPAN>
+                          {END any_checkbox_label}
+                        </DIV>
+                        <DIV class="addOption">
+                          <SPAN class="rnr-buttons-group">
+                            <A class="rnr-button" id="showHideControlChooseMenu{$id}" href="#" {$showHideCtrls_attrs}>
+                              Añadir campo
+                            </A>
+                          </SPAN>
+                          <A class="rnr-button" id="showHideSearchType{$id}" href="#" {$showHideCtrlsOpt_attrs}>
+                            {$showHideOpt_mess}
+                          </A>
+                        </DIV>
+                        <TABLE class="controlsBlock {$controls_block_class}">
+                          {BEGIN searchCtrlBlock}
+                            <TBODY>
+                              <TR class="srchPanelRow" {$filterRow_attrs}>
+                                <TD class="srchPanelCell">
+                                  {$delCtrlButt}
+                                </TD>
+                                <TD class="srchPanelCell">
+                                  {$fLabel}
+                                  :&nbsp;
+                                </TD>
+                                <TD class="srchPanelCell srchPanelCell2">
+                                  <DIV class="rnr-searchtype">
+                                    {$searchtype}
+                                  </DIV>
+                                  <DIV class="rnr-searchcontrol">
+                                    {$searchcontrol}
+                                  </DIV>
+                                  <DIV class="rnr-searchcontrol">
+                                    {$searchcontrol1}
+                                  </DIV>
+                                </TD>
+                              </TR>
+                            </TBODY>
+                          {END searchCtrlBlock}
+                        </TABLE>
+                        <DIV align="left" class="bottomSearchButt" {$bottomSearchButt_attrs}>
+                          <A class="rnr-button" id="searchButton{$id}" href="#" {$searchbutton_attrs}>
+                            Buscar
+                          </A>
+                        </DIV>
+                      </DIV>
+                    </DIV>
+                  </DIV>
+                {END searchPanel}
+                {BEGIN details_block}
+                  <DIV class="rnr-brickcontents style2 rnr-b-vdetails_found {$brickclass_vdetails_found}">
+                    <SPAN {$details_attrs}>
+                      Detalles encontrados:
+                      <SPAN class="rnr-details_found_count">
+                        {$records_found}
+                      </SPAN>
+                    </SPAN>
+                  </DIV>
+                {END details_block}
+                {BEGIN pages_block}
+                  <DIV class="rnr-brickcontents style1 rnr-b-vpage_of {$brickclass_vpage_of}">
+                    <SPAN id="pages_block{$id}">
+                      <SPAN {$pages_attrs}>
+                        Página{$page}/{$maxpages}
+                      </SPAN>
+                    </SPAN>
+                  </DIV>
+                {END pages_block}
+                {BEGIN recordspp_block}
+                  <DIV class="rnr-brickcontents style1 rnr-b-vrecsperpage {$brickclass_vrecsperpage}">
+                    <SPAN id="recordspp_block{$id}" name="recordspp_block{$id}">
+                      Resultados por página:&nbsp;{$recsPerPage}
+                    </SPAN>
+                  </DIV>
+                {END recordspp_block}
+              </DIV>
+            {END container_left}
+          </DIV>
+          <DIV class="rnr-center {$blockclass_center}">
+            {BEGIN container_message}
+              <DIV class="rnr-c rnr-ch rnr-c-message">
+                {BEGIN message_block}
+                  <DIV class="style1 rnr-bc rnr-b-message {$brickclass_message}">
+                    <DIV class="rnr-message">
+                      {$message}
+                    </DIV>
+                  </DIV>
+                {END message_block}
+              </DIV>
+            {END container_message}
+            {BEGIN container_grid}
+              {BEGIN grid_block}
+                <TABLE class="rnr-c rnr-cont rnr-c-grid rnr-b-grid rnr-gridtable  hoverable " cellpadding="0">
+                  <THEAD>
+                    {BEGIN grid_header}
+                      <TR class="rnr-toprow style1 {$gridHeader_class}">
+                        {BEGIN record_header}
+                          {BEGIN listIcons_column}
+                            <TH ieditcont="all">
+                              &nbsp;
+                            </TH>
+                          {END listIcons_column}
+                          {BEGIN checkbox_column}
+                            <TH class="rnr-bc">
+                              <INPUT type="checkbox" {$checkboxheader_attrs}>
+                            </TH>
+                          {END checkbox_column}
+                          {BEGIN calendarid_fieldheadercolumn}
+                            <TH class="rnr-gridfieldlabel {$calendarid_class}" style="text-align:center;">
+                              {BEGIN calendarid_fieldheader}
+                                <SPAN {$calendarid_orderlinkattrs}>
+                                  {$label oc_clndr_objects calendarid}
+                                </SPAN>
+                              {END calendarid_fieldheader}
+                            </TH>
+                          {END calendarid_fieldheadercolumn}
+                          {BEGIN startdate_fieldheadercolumn}
+                            <TH class="rnr-gridfieldlabel {$startdate_class}" style="text-align:center;">
+                              {BEGIN startdate_fieldheader}
+                                <SPAN {$startdate_orderlinkattrs}>
+                                  {$label oc_clndr_objects startdate}
+                                </SPAN>
+                              {END startdate_fieldheader}
+                            </TH>
+                          {END startdate_fieldheadercolumn}
+                          {BEGIN enddate_fieldheadercolumn}
+                            <TH class="rnr-gridfieldlabel {$enddate_class}" style="text-align:center;">
+                              {BEGIN enddate_fieldheader}
+                                <SPAN {$enddate_orderlinkattrs}>
+                                  {$label oc_clndr_objects enddate}
+                                </SPAN>
+                              {END enddate_fieldheader}
+                            </TH>
+                          {END enddate_fieldheadercolumn}
+                          {BEGIN summary_fieldheadercolumn}
+                            <TH class="rnr-gridfieldlabel {$summary_class}" style="text-align:center;">
+                              {BEGIN summary_fieldheader}
+                                <SPAN {$summary_orderlinkattrs}>
+                                  {$label oc_clndr_objects summary}
+                                </SPAN>
+                              {END summary_fieldheader}
+                            </TH>
+                          {END summary_fieldheadercolumn}
+                          <TH class="rnr-edge">
+                            &nbsp;
+                          </TH>
+                          {BEGIN endrecordheader_block}
+                            <TH class="rnr-cs">
+                              &nbsp;
+                            </TH>
+                          {END endrecordheader_block}
+                        {END record_header}
+                      </TR>
+                    {END grid_header}
+                  </THEAD>
+                  <TBODY>
+                    {BEGIN grid_row}
+                      <TR class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+                        {BEGIN grid_record}
+                          {BEGIN listIcons_column}
+                            <TD class="rnr-cc rnr-bc rnr-icons" ieditcont="all" {$rowstyle} {$recordattrs}>
+                              {BEGIN view_column}
+                                {BEGIN view_link}
+                                  <A title="Ver" class="rnr-button-img" data-icon="view" {$viewlink_attrs}>
+                                  </A>
+                                {END view_link}
+                              {END view_column}
+                            </TD>
+                          {END listIcons_column}
+                          {BEGIN checkbox_column}
+                            <TD class="rnr-bc" ieditcont="checkBox" {$rowstyle} {$recordattrs}>
+                              {BEGIN checkbox}
+                                <INPUT type="checkbox" {$checkbox_attrs}>
+                              {END checkbox}
+                            </TD>
+                          {END checkbox_column}
+                          {BEGIN calendarid_fieldcolumn}
+                            <TD class="{$calendarid_class}" style="text-align:center;" {$calendarid_style} {$recordattrs}>
+                              {$calendarid_value}
+                            </TD>
+                          {END calendarid_fieldcolumn}
+                          {BEGIN startdate_fieldcolumn}
+                            <TD class="{$startdate_class}" style="text-align:center;" {$startdate_style} {$recordattrs}>
+                              {$startdate_value}
+                            </TD>
+                          {END startdate_fieldcolumn}
+                          {BEGIN enddate_fieldcolumn}
+                            <TD class="{$enddate_class}" style="text-align:center;" {$enddate_style} {$recordattrs}>
+                              {$enddate_value}
+                            </TD>
+                          {END enddate_fieldcolumn}
+                          {BEGIN summary_fieldcolumn}
+                            <TD class="{$summary_class}" style="text-align:center;" {$summary_style} {$recordattrs}>
+                              {$summary_value}
+                            </TD>
+                          {END summary_fieldcolumn}
+                          <TD class="rnr-edge" {$recordattrs}>
+                            &nbsp;
+                          </TD>
+                          {BEGIN endrecord_block}
+                            <TD class="rnr-cs" {$endrecordblock_attrs}>
+                              &nbsp;
+                            </TD>
+                          {END endrecord_block}
+                        {END grid_record}
+                      </TR>
+                    {END grid_row}
+                  </TBODY>
+                </TABLE>
+              {END grid_block}
+            {END container_grid}
+            {BEGIN container_pagination}
+              <DIV class="rnr-c rnr-ch rnr-c-pagination">
+                {BEGIN pagination_block}
+                  <DIV class="style1 rnr-bc rnr-b-pagination {$brickclass_pagination}">
+                    {$pagination}
+                  </DIV>
+                {END pagination_block}
+              </DIV>
+            {END container_pagination}
+          </DIV>
+          <DIV class="rnr-right {$blockclass_right}">
+          </DIV>
+        </DIV>
+        <DIV class="rnr-bottom {$blockclass_bottom}">
+        </DIV>
+      </DIV>
+      {$footer}
+    {END body}
+  </BODY>
+</HTML>

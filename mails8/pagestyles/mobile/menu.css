@@ -1,0 +1,86 @@
+body.page-menu
+{
+padding-top:10px; padding-left:10px;
+}
+.page-menu .rnr-c-menu,
+  .rnr-pagewrapper .page-menu .rnr-c-menu,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-c-menu
+{
+margin-bottom:5px;
+}
+.page-menu .rnr-b-menulogas,
+  .rnr-pagewrapper .page-menu .rnr-b-menulogas,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-menulogas
+{
+white-space: nowrap;
+}
+.page-menu .rnr-b-menulogas,
+  .rnr-pagewrapper .page-menu .rnr-b-menulogas,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-menulogas
+{
+text-align: left;
+}
+.page-menu .rnr-b-menulogas > *,
+  .rnr-pagewrapper .page-menu .rnr-b-menulogas > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-menulogas > *
+{
+
+}
+.page-menu .rnr-b-menulogout,
+  .rnr-pagewrapper .page-menu .rnr-b-menulogout,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-menulogout
+{
+white-space: nowrap;
+}
+.page-menu .rnr-b-menulogout,
+  .rnr-pagewrapper .page-menu .rnr-b-menulogout,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-menulogout
+{
+text-align: left;
+}
+.page-menu .rnr-b-menulogout > *,
+  .rnr-pagewrapper .page-menu .rnr-b-menulogout > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-menulogout > *
+{
+
+}
+.page-menu .rnr-b-menuchangepwd,
+  .rnr-pagewrapper .page-menu .rnr-b-menuchangepwd,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-menuchangepwd
+{
+white-space: nowrap;
+}
+.page-menu .rnr-b-menuchangepwd,
+  .rnr-pagewrapper .page-menu .rnr-b-menuchangepwd,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-menuchangepwd
+{
+text-align: left;
+}
+.page-menu .rnr-b-menuchangepwd > *,
+  .rnr-pagewrapper .page-menu .rnr-b-menuchangepwd > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-menuchangepwd > *
+{
+
+}
+.page-menu .rnr-b-vmenu,
+  .rnr-pagewrapper .page-menu .rnr-b-vmenu,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-vmenu
+{
+white-space: nowrap;
+}
+.page-menu .rnr-b-vmenu,
+  .rnr-pagewrapper .page-menu .rnr-b-vmenu,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-vmenu
+{
+text-align: left;
+}
+.page-menu .rnr-b-vmenu > *,
+  .rnr-pagewrapper .page-menu .rnr-b-vmenu > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-menu .rnr-b-vmenu > *
+{
+
+}
+body.page-menu .rnr-top
+{
+padding-right: 5px;
+}

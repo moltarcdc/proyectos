@@ -1,0 +1,88 @@
+
+	/*Begin mobile template style*/
+	body{padding-right: 10px!important;}
+	
+	.rnr-c-searchpanelfly  input[type="text"],
+	.rnr-c-searchpanelfly input[type="number"], 
+	.rnr-c-searchpanelfly input[type="email"], 
+	.rnr-c-searchpanelfly input[type="url"], 
+	.rnr-c-searchpanelfly input[type="tel"],	
+	.rnr-c-fields input[type="text"],
+	.rnr-c-fields input[type="number"], 
+	.rnr-c-fields input[type="email"], 
+	.rnr-c-fields input[type="url"], 
+	.rnr-c-fields input[type="tel"],	
+	.rnr-c-fields input[type="password"],	
+	.rnr-c-fields textarea { 
+		width: 75%; 
+		height: 23px; 
+	}
+	
+	.rnr-c-fields .rnr-cc { 
+		vertical-align: text-bottom; 
+		padding-bottom: 0px !important; 
+		padding-left: 10px !important;
+	}
+	.rnr-c-fields .rnr-cc2 { 
+		padding-top: 1px !important; 
+	}
+	.rnr-flybutton {
+		position:absolute;
+		/*border:1px solid #000;
+		color:black; */
+		padding: 6px;
+	}
+	.rnr-more-container{
+		 position:absolute; 
+		 /*left:150px; 
+		 top:12px; 
+		 width:150px;*/
+		 z-index:+1;
+	 }
+	 
+	 .rnr-more-container > * {
+		padding: 3px 3px;
+	 }
+	 
+	 .rnr-more > * > *  {
+		margin: 10px; 5px;
+	 }
+	
+	.rnr-fulltext-content{
+		white-space: normal;
+	}
+	
+	.rnr-cg > table > * > tr.rnr-toprow > th.rnr-cc{
+		text-align:left;
+	}
+	
+	.rnr-panel .rnr-cc{
+		padding:4px;
+	}	
+	
+	.srchPanelRow {
+		padding: 8pt;
+	}
+	
+	.controlsBlock.controlsBlock.controlsBlock
+	{
+		width: auto;
+	}
+	
+	/* border classes when control is hovered in window mode*/
+	.cellBorderTopHovered {
+		border-top: 1pt dotted #C0C0C0;
+	}
+	.cellBorderBottomHovered {
+		border-bottom: 1pt dotted #C0C0C0;
+	}
+	
+	.hiddenButtonGroup > .rnr-list.rnr-list.rnr-list {
+		display: none;
+	}
+	
+	.rnr-dbelemtable {
+		table-layout: fixed;
+	}
+	
+	/*End mobile template style*/

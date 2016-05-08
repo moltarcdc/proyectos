@@ -1,0 +1,2 @@
+cron con php
+trigger en oc_users que asigne rol al usuario en tabla de phprunner 

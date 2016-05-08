@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD> 
+<META http-equiv="X-UA-Compatible" content="IE=Edge"> <TITLE>{$pagetitle} </TITLE> 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<LINK href="styles/default.css" rel="stylesheet" type="text/css"> {BEGIN rtlCSS}<LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">{END rtlCSS} {BEGIN styleCSSFiles}<LINK href="{$stylepath}" rel="stylesheet" type="text/css">{END styleCSSFiles} {BEGIN pageCSSFiles}<LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">{END pageCSSFiles} 
+<META name="GENERATOR" content="MSHTML 11.00.9600.16428"> </HEAD> 
+<BODY class="{$stylename} function-list" {$bodyattrs}>{BEGIN body}
+{$header} 
+<DIV class="rnr-page">
+<DIV class="rnr-top {$blockclass_top}">
+{BEGIN container_toplinks}
+<DIV class="rnr-c rnr-ch rnr-c-toplinks">
+<DIV class="rnr-hfiller"></DIV>
+{BEGIN security_block}<DIV class="style1 rnr-br rnr-b-loggedas {$brickclass_loggedas}">
+<DIV id="login_block{$id}">{BEGIN loggedas_message}<SPAN>
+ Usuario:&nbsp; <B>
+{$username} </B> &nbsp;</SPAN> {END loggedas_message}{BEGIN guestloginbutton}<SPAN><A class="rnr-button" href="#" {$guestloginlink_attrs}>
+Conectar </A> </SPAN> {END guestloginbutton}{BEGIN logoutbutton}<A class="rnr-button" href="#" {$logoutlink_attrs}> Salir </A> {END logoutbutton}{BEGIN adminarea_link}<A class="rnr-button" href="admin_rights_list.php" {$adminarealink_attrs}> Área de Permisos </A> {END adminarea_link}</DIV></DIV>{END security_block}</DIV>{END container_toplinks}
+{BEGIN container_hmenu}
+<DIV class="rnr-c rnr-ch rnr-c-hmenu">
+{BEGIN menu_block}{$menu main horizontal}{END menu_block}<DIV class="rnr-hfiller"></DIV></DIV>{END container_hmenu}
+{BEGIN container_recordcontrols}
+<DIV class="rnr-c rnr-ch rnr-c-recordcontrols">
+{BEGIN newrecord_controls_block}<DIV class="style1 rnr-bl rnr-b-recordcontrols_new {$brickclass_recordcontrols_new}">{BEGIN add_link}<A class="rnr-button" href="confnotifavanzadas_add.php" {$addlink_attrs}> Añadir nueva configuración </A> 
+{END add_link}</DIV>
+{END newrecord_controls_block}{BEGIN more_list}<DIV class="style1 rnr-bl rnr-b-toplinks {$brickclass_toplinks}"><SPAN class="rnr-buttons-group"></SPAN> </DIV>
+{END more_list}<DIV class="rnr-hfiller"></DIV></DIV>{END container_recordcontrols}</DIV>
+<DIV class="rnr-middle">
+<DIV class="rnr-left {$blockclass_left}">
+{BEGIN container_left}
+<DIV class="rnr-c rnr-cv rnr-c-left">
+{BEGIN details_block}<DIV class="rnr-brickcontents style2 rnr-b-vdetails_found {$brickclass_vdetails_found}"><SPAN {$details_attrs}> Detalles 
+ encontrados: <SPAN class="rnr-details_found_count">
+{$records_found} </SPAN> </SPAN> </DIV>
+{END details_block}{BEGIN pages_block}<DIV class="rnr-brickcontents style1 rnr-b-vpage_of {$brickclass_vpage_of}"><SPAN id="pages_block{$id}"><SPAN {$pages_attrs}>  Página 
+{$page}/ 
+{$maxpages} </SPAN> </SPAN> </DIV>
+{END pages_block}{BEGIN recordspp_block}<DIV class="rnr-brickcontents style1 rnr-b-vrecsperpage {$brickclass_vrecsperpage}"><SPAN id="recordspp_block{$id}" name="recordspp_block{$id}">
+ Resultados por página:&nbsp; 
+{$recsPerPage} </SPAN> </DIV>{END recordspp_block}</DIV>{END container_left}</DIV>
+<DIV class="rnr-center {$blockclass_center}">
+{BEGIN container_message}
+<DIV class="rnr-c rnr-ch rnr-c-message">
+{BEGIN message_block}<DIV class="style1 rnr-bc rnr-b-message {$brickclass_message}">
+<DIV class="rnr-message">
+{$message} </DIV></DIV>{END message_block}</DIV>{END container_message}
+{BEGIN container_grid}
+{BEGIN grid_block}<TABLE class="rnr-c rnr-cont rnr-c-grid rnr-b-grid rnr-gridtable  hoverable " cellpadding="0">
+  <THEAD>{BEGIN grid_header}
+  <TR class="rnr-toprow style1 {$gridHeader_class}">{BEGIN record_header}
+    {BEGIN listIcons_column}<TH ieditcont="all">
+      <P align="center"> 
+      &nbsp;Acción</P></TH>
+    {END listIcons_column}{BEGIN Tipo_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$Tipo_class}" style="text-align: center;">{BEGIN Tipo_fieldheader}<SPAN {$Tipo_orderlinkattrs}>
+      {$label oc_conf_notif_avanz Tipo} </SPAN> {END Tipo_fieldheader}</TH>
+    {END Tipo_fieldheadercolumn}{BEGIN Hora_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$Hora_class}" style="text-align: center;">{BEGIN Hora_fieldheader}<SPAN {$Hora_orderlinkattrs}>
+      {$label oc_conf_notif_avanz Hora} </SPAN> {END Hora_fieldheader}</TH>
+    {END Hora_fieldheadercolumn}{BEGIN Activa_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$Activa_class}" style="text-align: center;">{BEGIN Activa_fieldheader}<SPAN {$Activa_orderlinkattrs}>
+      {$label oc_conf_notif_avanz Activa} </SPAN> {END Activa_fieldheader}</TH>
+    {END Activa_fieldheadercolumn}<TH class="rnr-edge"> &nbsp;</TH>
+    {BEGIN endrecordheader_block}<TH class="rnr-cs"> &nbsp;</TH>{END endrecordheader_block}{END record_header}</TR>{END grid_header}</THEAD>
+  <TBODY>
+  {BEGIN grid_row}<TR class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>{BEGIN grid_record}
+    {BEGIN listIcons_column}<TD class="rnr-cc rnr-bc rnr-icons" style="white-space: nowrap;" ieditcont="all" {$rowstyle} {$recordattrs}>{BEGIN edit_column}{BEGIN edit_link}<A title="Editar" class="rnr-button-img" data-icon="edit" {$editlink_attrs}> </A> {END edit_link}{END edit_column}{BEGIN view_column}{BEGIN view_link}<A title="Ver" class="rnr-button-img" data-icon="view" {$viewlink_attrs}> </A> {END view_link}{END view_column}<STRONG>Recibir un      
+       correo conteniendo las tareas y actividades pendientes:</STRONG> </TD>
+    {END listIcons_column}{BEGIN Tipo_fieldcolumn}<TD class="{$Tipo_class}" style="text-align: center; white-space: nowrap;" {$Tipo_style} {$recordattrs}>
+      {$Tipo_value} 
+    </TD>
+    {END Tipo_fieldcolumn}{BEGIN Hora_fieldcolumn}<TD class="{$Hora_class}" style="text-align: center; white-space: nowrap;" {$Hora_style} {$recordattrs}>
+      {$Hora_value} 
+    </TD>
+    {END Hora_fieldcolumn}{BEGIN Activa_fieldcolumn}<TD class="{$Activa_class}" style="text-align: center; white-space: nowrap;" {$Activa_style} {$recordattrs}>
+      {$Activa_value} </TD>
+    {END Activa_fieldcolumn}<TD class="rnr-edge" style="white-space: nowrap;" {$recordattrs}> 
+       &nbsp;</TD>
+    {BEGIN endrecord_block}<TD class="rnr-cs" style="white-space: nowrap;" {$endrecordblock_attrs}> 
+       &nbsp;</TD>{END endrecord_block}{END grid_record}</TR>{END grid_row}</TBODY></TABLE>{END grid_block}{END container_grid}
+{BEGIN container_pagination}
+<DIV class="rnr-c rnr-ch rnr-c-pagination">
+{BEGIN pagination_block}<DIV class="style1 rnr-bc rnr-b-pagination {$brickclass_pagination}">
+{$pagination} </DIV>{END pagination_block}</DIV>{END container_pagination}</DIV>
+<DIV class="rnr-right {$blockclass_right}"></DIV></DIV>
+<DIV class="rnr-bottom {$blockclass_bottom}"></DIV></DIV>
+{$footer}{END body} </BODY></HTML>

@@ -1,0 +1,2 @@
+
+Runner.pages.PageSettings.addPageEvent("oc_clndr_objects",Runner.pages.constants.PAGE_LIST,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject){$("a[id^='logoutButton']").click(function(){window.close();});;});

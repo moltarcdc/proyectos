@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD> 
+<META http-equiv="X-UA-Compatible" content="IE=Edge"> <TITLE>{$pagetitle}</TITLE> 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<LINK href="styles/default.css" rel="stylesheet" type="text/css"> {BEGIN rtlCSS}<LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">{END rtlCSS} {BEGIN styleCSSFiles}<LINK href="{$stylepath}" rel="stylesheet" type="text/css">{END styleCSSFiles} {BEGIN pageCSSFiles}<LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">{END pageCSSFiles} 
+<META name="GENERATOR" content="MSHTML 11.00.9600.16428"></HEAD> 
+<BODY class="{$stylename} function-view" {$bodyattrs}>{BEGIN body}
+{$header} 
+<DIV class="rnr-page">
+<DIV 
+class="rnr-top {$blockclass_top}">
+{BEGIN container_all} 
+<DIV class="rnr-c rnr-cv rnr-c-all">
+<DIV class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_main} rnr-wrapper rnr-cbw-main">
+{BEGIN container_main}
+<DIV class="rnr-c rnr-cv rnr-c-main">
+<DIV class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_view} rnr-wrapper rnr-cbw-view">
+{BEGIN container_view}
+<DIV class="rnr-c rnr-cv rnr-c-view">
+{BEGIN viewheader}<DIV class="rnr-brickcontents style2 rnr-b-viewheader {$brickclass_viewheader}"><SPAN>
+<H1>
+{$pagetitlelabel oc_conf_notif_avanz view}</H1></SPAN></DIV>
+{END viewheader}<DIV class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+{BEGIN container_fields}
+<DIV class="rnr-c rnr-cv rnr-c-fields">
+<DIV class="rnr-brickcontents style1 rnr-b-viewfields {$brickclass_viewfields}">
+<TABLE class="fieldGrid">
+  <TBODY>
+  {BEGIN Tipo_fieldblock}<TR class="{$fielddispclass_Tipo}">
+    <TD class="rnr-label" rowspan="1" colspan="2">
+      <P align="center"><STRONG><U>DESEO RECIBIR UN CORREO 
+      ELECTRÓNICO</U></STRONG></P>
+      <P align="center"><STRONG><U>CON LAS TAREAS Y ACTIVIDADES 
+      PENDIENTES</U></STRONG></P>
+      <P align="center"><STRONG><U><BR></U></STRONG></P></TD></TR>
+  <TR class="{$fielddispclass_Tipo}" data-fieldname="Tipo">
+    <TD class="rnr-label" rowspan="1" colspan="1">
+      <DIV align="center">
+      {$label oc_conf_notif_avanz Tipo}</DIV></TD>
+    <TD class="rnr-control style3" rowspan="1" colspan="1">
+      <DIV align="center">
+      {$Tipo_value}</DIV>&nbsp;</TD></TR>
+  {END Tipo_fieldblock}{BEGIN Hora_fieldblock}<TR class="{$fielddispclass_Hora}" data-fieldname="Hora">
+    <TD class="rnr-label" rowspan="1" colspan="1">
+      <DIV align="center">
+      {$label oc_conf_notif_avanz Hora}</DIV></TD>
+    <TD class="rnr-control style3" rowspan="1" colspan="1">
+      <DIV align="center">
+      {$Hora_value}</DIV>&nbsp;</TD></TR>
+  {END Hora_fieldblock}{BEGIN Activa_fieldblock}<TR class="{$fielddispclass_Activa}" data-fieldname="Activa">
+    <TD class="rnr-label" rowspan="1" colspan="1">
+      <DIV align="center">
+      {$label oc_conf_notif_avanz Activa}</DIV></TD>
+    <TD class="rnr-control style3" rowspan="1" colspan="1">
+      <DIV align="center">
+      {$Activa_value}</DIV>&nbsp;
+</TD></TR>{END Activa_fieldblock}</TBODY></TABLE></DIV>
+{BEGIN viewbuttons}<DIV class="rnr-brickcontents style2 rnr-b-viewbuttons {$brickclass_viewbuttons}">
+<DIV class="rnr-buttons-left">{BEGIN back_button}<A class="rnr-button" href="#" {$backbutton_attrs}>Volver a la lista</A> {END back_button}{BEGIN close_button}<A class="rnr-button" href="#" {$closebutton_attrs}>Cerrar 
+ventana</A> {END close_button}{BEGIN edit_page_button}<A class="rnr-button" href="#" {$edit_page_button_attrs}>Editar</A> 
+{END edit_page_button}</DIV></DIV>{END viewbuttons}</DIV>{END container_fields}</DIV></DIV>{END container_view}</DIV></DIV> {END container_main}</DIV></DIV> 
+{END container_all} </DIV>
+<DIV class="rnr-middle">
+<DIV class="rnr-left {$blockclass_left}"></DIV>
+<DIV class="rnr-center {$blockclass_center}"></DIV>
+<DIV class="rnr-right {$blockclass_right}"></DIV></DIV>
+<DIV class="rnr-bottom {$blockclass_bottom}"><!--%%bottom%%--> </DIV></DIV>
+{$footer}{END body} </BODY></HTML>

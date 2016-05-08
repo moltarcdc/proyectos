@@ -1,0 +1,99 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		<link REL="stylesheet" href="styles/default_mobile.css" type="text/css">
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+				<div>
+					
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+{BEGIN loginheader}
+<div  class="rnr-brickcontents style2 rnr-b-loginheader {$brickclass_loginheader}"><span>	<h1>{$pagetitlelabel  login}</h1>
+</span></div>{END loginheader}
+
+
+{BEGIN message_block}
+<div  class="rnr-brickcontents style3 rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>{END message_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-loginfields {$brickclass_loginfields}"><table class="fieldGrid">
+	<tr>
+		<td>
+			{BEGIN username_label}Nombre de usuario:{END username_label}
+		</td>
+		<td class="rnr-control">
+			<input type="text" name="username" {$username_attrs}>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			{BEGIN password_label}Contraseña:{END password_label}
+		</td>
+		<td class="rnr-control">
+			<input type="password" name="password" {$password_attrs}>
+		</td>
+	</tr>
+			<tr>
+		<td>
+			{BEGIN remember_password_label}Recordar contraseña:{END remember_password_label}
+		</td>
+		<td>
+			<input type="checkbox" {$rememberbox_attrs}>
+		</td>
+	</tr>
+</table>
+								</div>
+
+
+{BEGIN guestlink_block}
+<div  class="rnr-brickcontents style3 rnr-b-mesguest {$brickclass_mesguest}"><a {$guestlink_attrs} >Conectar como invitado</a>
+</div>{END guestlink_block}
+
+
+
+
+{BEGIN loginbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-loginbuttons {$brickclass_loginbuttons}"><a href="#" class="rnr-button main" {$loginlink_attrs}>Aceptar</a>
+{BEGIN continue_button}
+<a href="#" class="rnr-button" {$continuebutton_attrs}>Continuar</a>
+{END continue_button}
+</div>{END loginbuttons}
+
+
+</div>
+{END container_fields}
+
+
+				</div>
+				<div>
+					
+				</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

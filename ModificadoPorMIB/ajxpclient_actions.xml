@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry_contributions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:../core.ajaxplorer/ajxp_registry.xsd">
+   <actions>
+      <action name="get_template">
+         <processing>
+            <serverCallback methodName="switchAction"/>
+         </processing>
+      </action>
+      <action name="get_i18n_messages">
+         <processing>
+            <serverCallback methodName="switchAction" restParams="/" developerComment="Load the list of translation strings">
+                    <output type="json" description="A JSON table of all strings contributed by all plugins."/>
+            </serverCallback>
+         </processing>
+      </action>
+      <action name="get_editors_registry">
+         <processing>
+            <serverCallback methodName="switchAction"/>
+         </processing>
+      </action>
+      <action name="display_doc">
+         <processing>
+            <serverCallback methodName="switchAction" restParams="/doc_file" developerComment="Load a doc file">
+                    <input_param name="doc_file" type="string" description="Text file base name (without extension) located inside the doc folder."/>
+            </serverCallback>
+         </processing>
+      </action>
+      <action name="up_dir">
+         <gui text="148" title="24" src="up.png" iconClass="icon-chevron-left" hasAccessKey="true"
+            accessKey="parent_access_key">
+            <context selection="false" dir="false" recycle="false"
+               actionBar="true" contextMenu="true" infoPanel="false" actionBarGroup="navigation">
+            </context>
+         </gui>
+         <rightsContext noUser="true" userLogged="only" read="true" write="false" adminOnly=""/>
+         <processing>
+            <clientCallback prepareModal="false"><![CDATA[
+               ajaxplorer.fireContextUp();
+               ]]></clientCallback>
+         </processing>
+      </action>
+      <action name="refresh">
+         <gui text="149" title="149" iconClass="icon-refresh" src="reload.png" hasAccessKey="true"
+            accessKey="refresh_access_key">
+            <context selection="false" dir="true" recycle="false"
+               actionBar="false" actionBarGroup="navigation" contextMenu="true" infoPanel="false">
+            </context>
+         </gui>
+         <rightsContext noUser="true" userLogged="only" read="true" write="false" adminOnly=""/>
+         <processing>
+            <clientCallback prepareModal="false"><![CDATA[
+               ajaxplorer.fireContextRefresh();
+               ]]></clientCallback>
+         </processing>
+      </action>
+      <action name="ext_select">
+         <gui text="321" title="322" src="download_manager.png" accessKey="" hasAccessKey="false">
+            <context selection="true" dir="" recycle="false"
+               actionBar="true" contextMenu="true" infoPanel="true"
+               actionBarGroup="put" inZip="false">
+            </context>
+            <selectionContext dir="true" file="true" recycle="false" unique="false"/></gui>
+         <rightsContext noUser="true" userLogged="only" read="true" write="false" adminOnly=""/>
+         <processing>
+            <clientCallback prepareModal="false"><![CDATA[
+               var userSelection = ajaxplorer.getUserSelection();
+               if((userSelection.isUnique() && !userSelection.hasDir()))
+               {
+                  var fileName = userSelection.getUniqueFileName();
+                  var selectorData = ajaxplorer.actionBar.selectorData;
+                  if(selectorData.get('type') == "ckeditor"){
+                     var ckData = selectorData.get('data');
+                     if (ckData['CKEditorFuncNum']) {
+                        var imagePath = fileName;
+                        if(ckData['relative_path']){
+                           imagePath = ckData['relative_path'] + fileName;
+                        }
+                        window.opener.CKEDITOR.tools.callFunction(ckData['CKEditorFuncNum'], imagePath);
+                        window.close();
+                     }
+                  }
+               }
+               ]]></clientCallback>
+            </processing>
+      </action>
+      <action name="bookmark">
+         <gui text="152" title="153" src="bookmark.png" iconClass="icon-bookmark-empty" hasAccessKey="true"
+            accessKey="bookmarks_access_key">
+            <context selection="true" dir="false" recycle="hidden"
+               actionBar="true" contextMenu="true" infoPanel="false"
+               actionBarGroup="remote">
+            </context>
+                <selectionContext dir="true" file="true" recycle="false" unique="true"/>
+         </gui>
+         <rightsContext noUser="true" userLogged="only" read="true" write="false" adminOnly=""></rightsContext>
+         <processing>
+            <clientCallback prepareModal="false"><![CDATA[
+               document.fire("ajaxplorer:add_bookmark");
+               ]]></clientCallback>
+         </processing>
+      </action>
+      <action name="delete_bookmark">
+         <gui text="154" title="155" src="folder_new.png"
+            accessKey="folder_access_key">
+            <context selection="false" dir="" recycle="false"
+               actionBar="false" contextMenu="false" infoPanel="false">
+            </context>
+         </gui>
+         <processing>
+            <clientCallback prepareModal="false"><![CDATA[
+               // TO DO
+               ]]></clientCallback>
+         </processing>
+      </action>
+      <action name="rename_bookmark">
+         <gui text="154" title="155" src="folder_new.png"
+            accessKey="folder_access_key">
+            <context selection="false" dir="" recycle="false"
+               actionBar="false" contextMenu="false" infoPanel="false">
+            </context>
+         </gui>
+         <processing>
+            <clientCallback prepareModal="false"><![CDATA[]]></clientCallback>
+            <clientForm id="rename_bookmark"><![CDATA[
+            <div id="rename_bookmark" action="get_bookmarks" box_width="200">
+            <input type="text" name="bm_title" value="" id="bm_title" class="dialogFocus">
+            <input type="hidden" name="bm_path" value="">
+            </div>
+            ]]></clientForm>
+         </processing>
+      </action>
+   </actions>
+</registry_contributions>

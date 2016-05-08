@@ -1,0 +1,139 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		<link REL="stylesheet" href="styles/default_mobile.css" type="text/css">
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+				<div>
+					
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+{BEGIN searchheader}
+<div  class="rnr-brickcontents style2 rnr-b-srchheader {$brickclass_srchheader}"><span>	<h1>{$pagetitlelabel admin_users search}</h1>
+</span></div>{END searchheader}
+
+
+{BEGIN conditions_block}
+<div  class="rnr-brickcontents style1 rnr-b-srchconditions {$brickclass_srchconditions}">	<center>
+	<span class=fieldname>Criterio:&nbsp;</span>	
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$all_checkbox}><label for="all_checkbox"> Todas las condiciones</label>
+	&nbsp;&nbsp;&nbsp;
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$any_checkbox}><label for="any_checkbox"> Ninguna condición</label>
+	</center></div>{END conditions_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-srchfields {$brickclass_srchfields}"><table class="fieldGrid">
+	<tr>
+		<td>&nbsp;</td>
+		<td>NO</td>
+		<td colspan=3>&nbsp; </td>
+	</tr>
+	<tr class="{$fielddispclass_uid}">
+	{BEGIN uid_fieldblock}		
+	<td>
+		{$label admin_users uid}
+	</td>
+	<td>
+		<input type="checkbox" {$uid_notbox}>
+	</td>
+	<td>
+		{$searchtype_uid}
+	</td>
+	<td>
+		{$uid_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$uid_editcontrol1}&nbsp;
+	</td>
+{END uid_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_displayname}">
+	{BEGIN displayname_fieldblock}		
+	<td>
+		{$label admin_users displayname}
+	</td>
+	<td>
+		<input type="checkbox" {$displayname_notbox}>
+	</td>
+	<td>
+		{$searchtype_displayname}
+	</td>
+	<td>
+		{$displayname_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$displayname_editcontrol1}&nbsp;
+	</td>
+{END displayname_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_password}">
+	{BEGIN password_fieldblock}		
+	<td>
+		{$label admin_users password}
+	</td>
+	<td>
+		<input type="checkbox" {$password_notbox}>
+	</td>
+	<td>
+		{$searchtype_password}
+	</td>
+	<td>
+		{$password_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$password_editcontrol1}&nbsp;
+	</td>
+{END password_fieldblock}
+	</tr>
+
+</table></div>
+
+
+{BEGIN searchbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-srchbuttons {$brickclass_srchbuttons}">{BEGIN search_button}
+<a href="#" class="rnr-button main" {$searchbutton_attrs}>Buscar</a>
+{END search_button} 
+{BEGIN reset_button}
+<a href="#" class="rnr-button" {$resetbutton_attrs}>Reiniciar</a>
+{END reset_button}
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Volver a la lista</a>
+{END back_button}</div>{END searchbuttons}
+
+
+</div>
+{END container_fields}
+
+
+				</div>
+				<div>
+					
+				</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		<link REL="stylesheet" href="styles/default_mobile.css" type="text/css">
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+				<div>
+					
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style2 rnr-b-viewheader_mobile {$brickclass_viewheader_mobile}">{BEGIN back_button}
+<a href="auditoria_list.php?a=return" class="rnr-button">Volver a la lista</a>
+{END back_button}
+Auditoría, Ver registro [
+{$label oc_audit id}: {$show_key1}
+]</div>
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-viewfields_atop {$brickclass_viewfields_atop}"><div class="rnr-simplefields">
+	{BEGIN id_fieldblock}
+<div data-fieldname="id" class="rnr-field style1 {$fielddispclass_id}">
+  <div class="rnr-label above">{$label oc_audit id}:</div>
+  <div class="rnr-control style3">{$id_value}</div>
+</div>
+{END id_fieldblock}
+	{BEGIN datetime_fieldblock}
+<div data-fieldname="datetime" class="rnr-field style1 {$fielddispclass_datetime}">
+  <div class="rnr-label above">{$label oc_audit datetime}:</div>
+  <div class="rnr-control style3">{$datetime_value}</div>
+</div>
+{END datetime_fieldblock}
+	{BEGIN ip_fieldblock}
+<div data-fieldname="ip" class="rnr-field style1 {$fielddispclass_ip}">
+  <div class="rnr-label above">{$label oc_audit ip}:</div>
+  <div class="rnr-control style3">{$ip_value}</div>
+</div>
+{END ip_fieldblock}
+	{BEGIN user_fieldblock}
+<div data-fieldname="user" class="rnr-field style1 {$fielddispclass_user}">
+  <div class="rnr-label above">{$label oc_audit user}:</div>
+  <div class="rnr-control style3">{$user_value}</div>
+</div>
+{END user_fieldblock}
+	{BEGIN table_fieldblock}
+<div data-fieldname="table" class="rnr-field style1 {$fielddispclass_table}">
+  <div class="rnr-label above">{$label oc_audit table}:</div>
+  <div class="rnr-control style3">{$table_value}</div>
+</div>
+{END table_fieldblock}
+	{BEGIN action_fieldblock}
+<div data-fieldname="action" class="rnr-field style1 {$fielddispclass_action}">
+  <div class="rnr-label above">{$label oc_audit action}:</div>
+  <div class="rnr-control style3">{$action_value}</div>
+</div>
+{END action_fieldblock}
+	{BEGIN description_fieldblock}
+<div data-fieldname="description" class="rnr-field style1 {$fielddispclass_description}">
+  <div class="rnr-label above">{$label oc_audit description}:</div>
+  <div class="rnr-control style3">{$description_value}</div>
+</div>
+{END description_fieldblock}
+</div></div>
+
+
+{BEGIN viewbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-viewbuttons {$brickclass_viewbuttons}"><div class="rnr-buttons-left">
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Volver a la lista</a>
+{END back_button}
+{BEGIN close_button}
+<a href="#" class="rnr-button" {$closebutton_attrs}>Cerrar ventana</a>
+{END close_button}
+</div>
+</div>{END viewbuttons}
+
+
+</div>
+{END container_fields}
+
+
+
+
+				</div>
+				<div>
+					
+				</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,134 @@
+body.page-edit
+{
+padding-top:10px; padding-left:10px;
+}
+.page-edit .rnr-c-fields,
+  .rnr-pagewrapper .page-edit .rnr-c-fields,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-c-fields
+{
+margin-bottom:5px;
+}
+.page-edit .rnr-b-editheader_mobile,
+  .rnr-pagewrapper .page-edit .rnr-b-editheader_mobile,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editheader_mobile
+{
+white-space: nowrap;
+}
+.page-edit .rnr-b-editheader_mobile,
+  .rnr-pagewrapper .page-edit .rnr-b-editheader_mobile,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editheader_mobile
+{
+text-align: left;
+}
+.page-edit .rnr-b-editheader_mobile > *,
+  .rnr-pagewrapper .page-edit .rnr-b-editheader_mobile > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editheader_mobile > *
+{
+
+}
+.page-edit .rnr-b-message,
+  .rnr-pagewrapper .page-edit .rnr-b-message,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-message
+{
+white-space: nowrap;
+}
+.page-edit .rnr-b-message,
+  .rnr-pagewrapper .page-edit .rnr-b-message,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-message
+{
+text-align: left;
+}
+.page-edit .rnr-b-message > *,
+  .rnr-pagewrapper .page-edit .rnr-b-message > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-message > *
+{
+
+}
+.page-edit .rnr-b-editfields_atop,
+  .rnr-pagewrapper .page-edit .rnr-b-editfields_atop,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editfields_atop
+{
+white-space: normal;
+}
+.page-edit .rnr-b-editfields_atop,
+  .rnr-pagewrapper .page-edit .rnr-b-editfields_atop,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editfields_atop
+{
+text-align: left;
+}
+.page-edit .rnr-b-editfields_atop > *,
+  .rnr-pagewrapper .page-edit .rnr-b-editfields_atop > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editfields_atop > *
+{
+
+}
+.page-edit .rnr-b-editbuttons,
+  .rnr-pagewrapper .page-edit .rnr-b-editbuttons,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editbuttons
+{
+white-space: nowrap;
+}
+.page-edit .rnr-b-editbuttons,
+  .rnr-pagewrapper .page-edit .rnr-b-editbuttons,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editbuttons
+{
+text-align: left;
+}
+.page-edit .rnr-b-editbuttons > *,
+  .rnr-pagewrapper .page-edit .rnr-b-editbuttons > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editbuttons > *
+{
+
+}
+.page-edit .rnr-c-flylist,
+  .rnr-pagewrapper .page-edit .rnr-c-flylist,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-c-flylist
+{
+margin-bottom:5px;
+}
+.page-edit .rnr-b-flypanel_mobile,
+  .rnr-pagewrapper .page-edit .rnr-b-flypanel_mobile,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-flypanel_mobile
+{
+white-space: nowrap;
+}
+.page-edit .rnr-b-flypanel_mobile,
+  .rnr-pagewrapper .page-edit .rnr-b-flypanel_mobile,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-flypanel_mobile
+{
+text-align: left;
+}
+.page-edit .rnr-b-flypanel_mobile > *,
+  .rnr-pagewrapper .page-edit .rnr-b-flypanel_mobile > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-flypanel_mobile > *
+{
+
+}
+.page-edit .rnr-c-details,
+  .rnr-pagewrapper .page-edit .rnr-c-details,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-c-details
+{
+margin-bottom:5px;
+}
+.page-edit .rnr-b-editdetails,
+  .rnr-pagewrapper .page-edit .rnr-b-editdetails,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editdetails
+{
+white-space: nowrap;
+}
+.page-edit .rnr-b-editdetails,
+  .rnr-pagewrapper .page-edit .rnr-b-editdetails,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editdetails
+{
+text-align: left;
+}
+.page-edit .rnr-b-editdetails > *,
+  .rnr-pagewrapper .page-edit .rnr-b-editdetails > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-edit .rnr-b-editdetails > *
+{
+
+}
+body.page-edit .rnr-top
+{
+padding-right: 5px;
+}
